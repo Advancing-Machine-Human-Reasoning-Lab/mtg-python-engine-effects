@@ -4,6 +4,7 @@ import math
 import re
 from collections import namedtuple
 
+from datetime import datetime
 from MTG.parsedcards import *
 from MTG.exceptions import *
 from MTG import abilities
@@ -62,6 +63,10 @@ def read_deck(filename):
     10 Oreskos Swiftclaw
 
     """
+    # for cards that did not get added
+    card_not_added_file = open("AMHR/testing/cards_not_in_json.txt", "a")
+    card_not_added_file.write(f"\n{(datetime.now()).strftime('%d/%m/%Y %H:%M:%S')} File: {filename}\n") # record time of test
+
     with open(filename, 'r') as f:
         file = f.read().split("\n")
         deck = []
@@ -75,11 +80,14 @@ def read_deck(filename):
                         deck.append(card)
                         # print(deck[-1].name)
                     else:
+                        card_not_added_file.write(f"{line} DNE\n")
                         pass
                         # print("card {} does not exist\n".format(line[i+1:]))
             except:
-                raise DecklistFormatException
-
+                card_not_added_file.write(f"{line}\n")
+                continue
+                # raise DecklistFormatException
+    card_not_added_file.close()
     return deck
 
 
@@ -427,7 +435,6 @@ def parse_card_from_lines(lines, log=None):
 
     if log and str_to_exe:
         log.write(str_to_exe + "\n")
-
     exec(str_to_exe)
 
 

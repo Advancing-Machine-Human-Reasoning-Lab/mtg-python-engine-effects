@@ -134,6 +134,15 @@ add_play_func_with_targets("Cancel", lambda self, targets, is_legal_target: [tar
 
 add_activated_ability("Furnace Whelp", 'R', "self.card.add_effect('modifyPT', (1, 0), self, self.game.eot_time)", [])
 
+add_targets("Lightning Strike", ['creature or player'], prompts=[])
+add_play_func_with_targets("Lightning Strike", lambda self, targets, is_legal_target: [targets[0].take_damage(self, 3)])
+
+add_play_func_no_target("Divination", lambda self: [self.controller.draw(2)])
+
+add_play_func_no_target("Jace's Ingenuity", lambda self: [self.controller.draw(3)])
+
+add_play_func_no_target("Meditation Puzzle", lambda self: [self.controller.gain_life(8)])
+
 add_trigger("Champion of the Parish", triggers.triggerConditions['onControllerCreatureEtB'], '[self.card.add_counter("+1/+1")]', lambda self: self.trigger_source.has_subtype("Human") and self.trigger_source != self.card, [], intervening_if=None)
 
 add_trigger("Thraben Inspector", triggers.triggerConditions['onEtB'], '[self.controller.investigate()]', None, [], intervening_if=None)
@@ -157,4 +166,179 @@ add_trigger("Restoration Angel", triggers.triggerConditions['onEtB'], '[self.tar
 
 add_targets("Path to Exile", ['creature'], prompts=[])
 add_play_func_with_targets("Path to Exile", lambda self, targets, is_legal_target: [targets[0].exile(), targets[0].controller.search_lib(lambda c: c.is_basic_land, target_zone=None, todo_func=lambda c: c.change_zone(targets[0].controller.battlefield, status_mod=['tapped'])) if targets[0].controller.make_choice("Would you like to search for a basic land?") else None])
+
+add_trigger("Sapling of Colfenor", triggers.triggerConditions['onAttack'], '[self.game.apply_to_battlefield(lambda card: self.controller.gain_life(card.toughness) and self.controller.lose_life(card.power) and card.owner = self.controller, lambda card: card == self.opponent.library.pop() and card.is_creature)]', None, [], intervening_if=None)
+add_play_func_no_target("Sapling of Colfenor", lambda self: [self.card.add_effect('gainAbility', 'Indestructible', self)])
+
+add_activated_ability("Stillmoon Cavalier", 'W,B', "self.card.add_effect('gainAbility', 'Flying', self, self.game.eot_time)", [])
+add_activated_ability("Stillmoon Cavalier", 'W,B', "self.card.add_effect('gainAbility', 'First Strike', self, self.game.eot_time)", [])
+add_activated_ability("Stillmoon Cavalier", '2(W,B)', "self.card.add_effect('modifyPT', (2,1), self, self.game.eot_time)", [])
+
+add_activated_ability("Shaman of the Great Hunt", 'Ferocious, 2(G,U)', 'self.controller.draw(sum([1 for card in self.hand if card.is_creature and card.power >= 4]))', [])
+add_trigger("Shaman of the Great Hunt", triggers.triggerConditions['onCombatDamageToPlayers'], '[self.card.add_counter("+1, +1")]', None, [], intervening_if=None)
+
+add_targets("Warped Physique", ['creature'], prompts=[])
+add_play_func_with_targets("Warped Physique", lambda self, targets, is_legal_target: [targets[0].add_effect('modifyPT', (len(self.controller.hand), -(len(self.controller.hand))), self, self.game.eot_time)])
+
+add_play_func_no_target("Hand of Silumgar", lambda self: [self.card.add_effect('gainAbility', 'Deathtouch', self)])
+
+add_activated_ability("Ray of Revelation", 'G', 'self.card.exile() # not sure if we should use that', [])
+add_targets("Ray of Revelation", ['enchantment'], prompts=[])
+add_play_func_with_targets("Ray of Revelation", lambda self, targets, is_legal_target: [targets[0].destroy()])
+
+add_activated_ability("Putrid Leech", 'Pay 2 life', "self.card.add_effect('modifyPT', (2, 2), self, self.game.eot_time)", [])
+
+add_trigger("Vedalken Heretic", triggers.triggerConditions['onDealDamage'], '[self.controller.draw(1)]', None, [], intervening_if=None)
+
+add_trigger("Phyrexian Arena", triggers.triggerConditions['onUpkeep'], '[self.controller.lose_life(1), self.controller.draw(1)]', None, [], intervening_if=None)
+
+add_activated_ability("Tower of Fortunes", '8, T', 'self.controller.draw(4) # pay 8 colorless mana, and tap to draw 4 cards', [])
+
+add_trigger("Touch of the Eternal", triggers.triggerConditions['onUpkeep'], '[self.controller.set_life_total(sum([1 for c in self.controller.battlefield if c.is_permanent]))]', None, [], intervening_if=None)
+
+add_trigger("Root Spider", triggers.triggerConditions['onBlock'], "[self.card.add_effect('modifyPT', (1, 0), self, self.game.eot_time), self.card.add_effect('gainAbility', 'firstStrike', self, self.game.eot_time)]", None, [], intervening_if=None)
+
+add_targets("Eternal Witness", [lambda self, p: p.zone_type == 'GRAVEYARD'], prompts=['Choose target card from graveyard\n'])
+add_play_func_with_targets("Eternal Witness", lambda self, targets, is_legal_target: [target[0].change_zone(self.controller.hand)])
+
+add_targets("Shock", ['creature or player'], prompts=[])
+add_play_func_with_targets("Shock", lambda self, targets, is_legal_target: [targets[0].take_damage(self, 2)])
+
+add_targets("Lightning Bolt", ['creature or player'], prompts=[])
+add_play_func_with_targets("Lightning Bolt", lambda self, targets, is_legal_target: [targets[0].take_damage(self, 3)])
+
+add_targets("Lightning Blast", ['creature or player'], prompts=[])
+add_play_func_with_targets("Lightning Blast", lambda self, targets, is_legal_target: [targets[0].take_damage(self, 4)])
+
+add_targets("Volcanic Hammer", ['creature or player'], prompts=[])
+add_play_func_with_targets("Volcanic Hammer", lambda self, targets, is_legal_target: [targets[0].take_damage(self, 3)])
+
+add_targets("Searing Wind", ['creature or player'], prompts=[])
+add_play_func_with_targets("Searing Wind", lambda self, targets, is_legal_target: [targets[0].take_damage(self, 10)])
+
+add_targets("Cinder Storm", ['creature or player'], prompts=[])
+add_play_func_with_targets("Cinder Storm", lambda self, targets, is_legal_target: [targets[0].take_damage(self, 7)])
+
+add_targets("Electrify", ['creature'], prompts=[])
+add_play_func_with_targets("Electrify", lambda self, targets, is_legal_target: [targets[0].take_damage(self, 4)])
+
+add_targets("Open Fire", ['creature or player'], prompts=[])
+add_play_func_with_targets("Open Fire", lambda self, targets, is_legal_target: [targets[0].take_damage(self, 3)])
+
+add_targets("Bombard", ['creature'], prompts=[])
+add_play_func_with_targets("Bombard", lambda self, targets, is_legal_target: [targets[0].take_damage(self, 4)])
+
+add_targets("Bathe in Dragonfire", ['creature'], prompts=[])
+add_play_func_with_targets("Bathe in Dragonfire", lambda self, targets, is_legal_target: [targets[0].take_damage(self, 4)])
+
+add_targets("Flame Slash", ['creature'], prompts=[])
+add_play_func_with_targets("Flame Slash", lambda self, targets, is_legal_target: [targets[0].take_damage(self, 4)])
+
+add_targets("Tarfire", ['creature or player'], prompts=[])
+add_play_func_with_targets("Tarfire", lambda self, targets, is_legal_target: [targets[0].take_damage(self, 2)])
+
+add_targets("Searing Spear", ['creature or player'], prompts=[])
+add_play_func_with_targets("Searing Spear", lambda self, targets, is_legal_target: [targets[0].take_damage(self, 3)])
+
+add_targets("Hornet Sting", ['creature or player'], prompts=[])
+add_play_func_with_targets("Hornet Sting", lambda self, targets, is_legal_target: [targets[0].take_damage(self, 1)])
+
+add_targets("Command the Storm", ['creature'], prompts=[])
+add_play_func_with_targets("Command the Storm", lambda self, targets, is_legal_target: [targets[0].take_damage(self, 5)])
+
+add_targets("Precision Bolt", ['creature or player'], prompts=[])
+add_play_func_with_targets("Precision Bolt", lambda self, targets, is_legal_target: [targets[0].take_damage(self, 3)])
+
+add_targets("Breath of Fire", ['creature'], prompts=[])
+add_play_func_with_targets("Breath of Fire", lambda self, targets, is_legal_target: [targets[0].take_damage(self, 2)])
+
+add_targets("Cleansing Screech", ['creature or player'], prompts=[])
+add_play_func_with_targets("Cleansing Screech", lambda self, targets, is_legal_target: [targets[0].take_damage(self, 4)])
+
+add_targets("Flame Lash", ['creature or player'], prompts=[])
+add_play_func_with_targets("Flame Lash", lambda self, targets, is_legal_target: [targets[0].take_damage(self, 4)])
+
+add_targets("Fiery Finish", ['creature'], prompts=[])
+add_play_func_with_targets("Fiery Finish", lambda self, targets, is_legal_target: [targets[0].take_damage(self, 7)])
+
+add_targets("Engulfing Eruption", ['creature'], prompts=[])
+add_play_func_with_targets("Engulfing Eruption", lambda self, targets, is_legal_target: [targets[0].take_damage(self, 5)])
+
+add_targets("Fire Ambush", ['creature or player'], prompts=[])
+add_play_func_with_targets("Fire Ambush", lambda self, targets, is_legal_target: [targets[0].take_damage(self, 3)])
+
+add_targets("Bee Sting", ['creature or player'], prompts=[])
+add_play_func_with_targets("Bee Sting", lambda self, targets, is_legal_target: [targets[0].take_damage(self, 2)])
+
+add_targets("Unyaro Bee Sting", ['creature or player'], prompts=[])
+add_play_func_with_targets("Unyaro Bee Sting", lambda self, targets, is_legal_target: [targets[0].take_damage(self, 2)])
+
+add_targets("Scorching Spear", ['creature or player'], prompts=[])
+add_play_func_with_targets("Scorching Spear", lambda self, targets, is_legal_target: [targets[0].take_damage(self, 1)])
+
+add_targets("Ragefire", ['creature'], prompts=[])
+add_play_func_with_targets("Ragefire", lambda self, targets, is_legal_target: [targets[0].take_damage(self, 3)])
+
+add_targets("Explosive Impact", ['creature or player'], prompts=[])
+add_play_func_with_targets("Explosive Impact", lambda self, targets, is_legal_target: [targets[0].take_damage(self, 5)])
+
+add_targets("Unfriendly Fire", ['creature or player'], prompts=[])
+add_play_func_with_targets("Unfriendly Fire", lambda self, targets, is_legal_target: [targets[0].take_damage(self, 4)])
+
+add_play_func_no_target("Counsel of the Soratami", lambda self: [self.controller.draw(2)])
+
+add_play_func_no_target("Sift", lambda self: [self.controller.draw(3), self.controller.discard(1)])
+
+add_play_func_no_target("Tidings", lambda self: [self.controller.draw(4)])
+
+add_play_func_no_target("Catalog", lambda self: [self.controller.draw(2), self.controller.discard(1)])
+
+add_play_func_no_target("Concentrate", lambda self: [self.controller.draw(3)])
+
+add_play_func_no_target("Harmonize", lambda self: [self.controller.draw(3)])
+
+add_play_func_no_target("Brilliant Plan", lambda self: [self.controller.draw(3)])
+
+add_play_func_no_target("Reach Through Mists", lambda self: [self.controller.draw(1)])
+
+add_play_func_no_target("Prying Eyes", lambda self: [self.controller.draw(4), self.controller.discard(4)])
+
+add_play_func_no_target("Enhanced Awareness", lambda self: [self.controller.draw(3), self.controller.discard(1)])
+
+add_play_func_no_target("Weave Fate", lambda self: [self.controller.draw(2)])
+
+add_play_func_no_target("Rain of Revelation", lambda self: [self.controller.draw(3), self.controller.discard(1)])
+
+add_play_func_no_target("Careful Study", lambda self: [self.controller.draw(2), self.controller.discard(2)])
+
+add_play_func_no_target("Touch of Brilliance", lambda self: [self.controller.draw(2)])
+
+add_play_func_no_target("Thoughtflare", lambda self: [self.controller.draw(4), self.controller.discard(4)])
+
+add_play_func_no_target("Sacred Nectar", lambda self: [self.controller.gain_life(4)])
+
+add_play_func_no_target("Spring of Eternal Peace", lambda self: [self.controller.gain_life(8)])
+
+add_play_func_no_target("Chaplain's Blessing", lambda self: [self.controller.gain_life(5)])
+
+add_play_func_no_target("Rejuvenate", lambda self: [self.controller.gain_life(6)])
+
+add_play_func_no_target("Angel's Mercy", lambda self: [self.controller.gain_life(7)])
+
+add_play_func_no_target("Nourish", lambda self: [self.controller.gain_life(6)])
+
+add_play_func_no_target("Whitesun's Passage", lambda self: [self.controller.gain_life(5)])
+
+add_play_func_no_target("Moorland Inquisitor", lambda self: [self.card.add_effect('gainAbility', 'First Strike', self, self.game.eot_time)])
+
+add_targets("Reito Lantern", [lambda self, p: p.zone_type == 'GRAVEYARD'], prompts=[])
+add_play_func_with_targets("Reito Lantern", lambda self, targets, is_legal_target: [targets[0].change_zone(p.owner.library, -1, False)])
+
+add_targets("Karplusan Wolverine", ['creature or player'], prompts=[])
+add_play_func_with_targets("Karplusan Wolverine", lambda self, targets, is_legal_target: [targets[0].take_damage(self, 1)])
+
+add_targets("Elder Druid", ['creature or land or artifact'], prompts=[])
+add_play_func_with_targets("Elder Druid", lambda self, targets, is_legal_target: [[targets[0].untap() if targets[0].status.tapped else targets[0].tap()]])
+
+add_play_func_no_target("Songs of the Damned", lambda self: [[self.mana.add_str('B') for i in self.controller.graveyard if i.is_creature]])
 

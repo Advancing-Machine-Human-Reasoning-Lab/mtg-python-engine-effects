@@ -1,0 +1,111 @@
+
+1-5
+##############################
+Devout Chaplain # 
+    Cost:
+        # Exile target artifact or enchantment.
+        Targets: 
+            card.is_artifact or card.is_artifact
+        targets[0].exile()
+
+    # Tap two untapped Humans you control
+    Targets:
+        Creature
+        Conditioned On:
+            # creature is human
+
+	Triggers:
+		onPlay
+			self.targets_chosen[0].tap()
+			self.targets_chosen[1].tap()
+
+############################## This card is ambiguous 
+FLAG: Guise of Fire 
+
+    Targets:
+            'creature'
+
+        targets[0].add_effect('modifyPT', (+1, -1),
+                                                    self, self.game.eot_time)
+        # attacks each combat if able
+
+##############################
+Moorland Inquisitor
+
+    c.add_effect('gainAbility', 'First Strike', self, self.game.eot_time)
+								
+##############################
+Kami of Tattered Shoji
+
+    Triggers:
+        # onSpell (not a part of the current trigger.py)
+            self.card.add_effect('gainAbility', 'Flying', self, self.game.eot_time)
+
+##############################
+Unnatural Speed
+
+    Targets:
+            'creature'
+        
+        self.card.add_effect('gainAbility', 'Haste', self, self.game.eot_time)
+
+6-10
+############################# 
+Spirit of the Labyrinth 
+    Targets:
+        'player'
+    Triggers:
+        onPlay(find a trigger to keep the effect going and find a trigger to end it) # check effect expiration
+            # each player cannot draw more than one card per term.
+            self.controller.draw(1)
+    #end the effect with onLeaveBattlefield trigger
+
+#############################
+Lantern Kami 
+    StaticEffects: #change to gain ability
+      'self'
+			'gainAbility'
+			'Flying'
+
+
+#############################
+Reito Lantern
+  #add mana cost
+    Targets:
+        #Put target card from a graveyard on the bottom of its owner's library
+
+        card.graveyard()
+     
+      targets[0].change_zone(self.owner.library, -1, False) if self.controller.zone is graveyard:
+
+
+#############################
+Karplusan Wolverine
+    # if is_blocked (do a check instead of a trigger)
+    #Triggers:
+        
+
+    Targets:
+		'creature or player'
+
+    targets[0].take_damage(self, 1)
+
+#############################
+Sunscour
+    #You may exile two white cards from your hand rather than pay this spell's mana cost.
+    # How to do cost??
+    # 2 options 
+    Cost: (self.)
+        Targets:
+            card.has_color("W")
+        targets[0].exile()
+        targets[1].exile()
+
+    Targets:
+        # how to target all creatures?
+        'creature'
+    targets.destroy()
+
+##############################
+
+

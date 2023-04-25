@@ -1,0 +1,89 @@
+ATTRIBUTES
+    name, mana_cost, color, types, subtype, supertype, text, abilities, power, toughness, loyalty
+
+PLAYER
+self.controller
+
+    is_active()
+    opponent()
+    creatures()
+    lands()
+    get_zone(zone_type)
+    draw()
+    gain_life(amount)
+    lose_life(amount)
+    set_life_total(value)
+    create_token(self, attributes, num=1, keyword_abilities=[], activated_abilities=[])
+    make_choice(prompt_string, ...)
+    bolster()
+    investigate()
+    take_damage(amount)
+
+LIBRARY
+self.controller
+
+    apply_to_zone(apply_func, _zone, condition=lambda p: True)
+    change_zone(target_zone, from_top, shuffle=True, status_mod=None, modi_func=None)
+
+CHECKERS
+self.card
+
+    is_land()
+    is_basic_land()
+    is_creature()
+    is_instant()
+    is_sorcery()
+    is_artifact()
+    is_enchantment()
+    is_aura()
+    is_equipment()
+    has_ability(ability)
+    share_color(other)
+    has_color(color)
+    is_color(color)
+    is_monocolored()
+    is_multicolored()
+    is_colorless()
+    has_subtype(subtype)
+    exile()
+    has_valid_target()
+    can_attack()
+    can_block()
+    blocks(creature)
+    in_combat()
+    sacrifice()
+    check_effect_expiration()
+
+PROPERTIES
+self.game
+
+    eot_time()
+    apply_to_battlefield()
+    players_list
+
+PERMANENT
+self.card
+
+    tap()
+    untap()
+    freeze()
+    attacks(player)
+    exits_combat()
+    take_damage(source, dmg, is_combat=False) # """ target could be Player, Creature, or array of creatures"""
+    deals_damage(target, dmg, is_combat)
+    destroy()
+    dies()
+    exile()
+    bounce()
+    flicker()
+    activate_ability(num=0)
+    add_effect(name, value, source=None, expiration=math.inf, is_active=True, toggle_func=lambda eff: True)
+    add_counter(stringVar)
+    num_counter(stringVar)
+
+    enchant(target)
+    disenchant()
+    add_ability(ability)
+    add_pt(PT)
+    make_permanent(card, status_mod=None, modi_func=None)
+    make_aura(card, enchant_target)

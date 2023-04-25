@@ -1,0 +1,95 @@
+############################## good
+Call to the Feast
+
+		self.controller.create_token('1/1 white Vampire', 3, 'lifelink')
+
+############################## good
+Thatcher Revolt
+
+		self.controller.create_token('1/1 red Human', 3, 'haste')
+
+############################## good
+Midnight Haunting
+
+		self.controller.create_token('1/1 white Spirit', 2, 'flying')
+
+############################## good
+Spectral Procession
+
+		self.controller.create_token('1/1 white Spirit', 3, 'flying')
+
+############################## additional text after
+Migratory Route
+
+		self.controller.create_token('1/1 white Bird', 4, 'flying')
+
+############################## good
+Imaginary Friends
+
+		self.controller.create_token('0/0 white Spirit', 3, 'flying')
+
+############################## additional text after
+Lingering Souls
+
+		self.controller.create_token('1/1 white Spirit', 2, 'flying')
+
+############################## additional text after
+Battle Screech
+
+		self.controller.create_token('1/1 white Bird', 2, 'flying')
+
+############################## good 
+Call the Cavalry
+
+		self.controller.create_token('2/2 white Knight', 2, 'vigilance')
+
+############################## additional text after ("You gain 2 life.")
+Spectral Reserves
+
+		self.controller.create_token('1/1 white Spirit', 2, 'flying')
+
+############################## good
+Talrand's Invocation
+
+		self.controller.create_token('2/2 blue Drake', 2, 'flying')
+
+############################## good
+Sworn Companions
+
+		self.controller.create_token('1/1 white Soldier', 2, 'lifelink')
+
+############################## good
+Knight Watch
+
+		self.controller.create_token('2/2 white Knight', 2, 'vigilance')
+
+############################## good
+Flurry of Horns
+
+		self.controller.create_token('2/3 red Minotaur', 2, 'haste')
+
+############################## additional text after
+Alrund's Epiphany
+
+		self.controller.create_token('1/1 blue Bird', 2, 'flying')
+
+############################## additional text after ("Scry 3")
+Imperial Oath
+
+		self.controller.create_token('2/2 white Samurai', 3, 'vigilance')
+
+############################## additional text after
+Gideon's Phalanx
+
+		self.controller.create_token('2/2 white Knight', 4, 'vigilance')
+
+############################## additional text after
+Feral Lightning
+
+		self.controller.create_token('3/1 red Elemental', 3, 'haste')
+
+############################## good
+Queen's Commission
+
+		self.controller.create_token('1/1 white Vampire', 2, 'lifelink')
+

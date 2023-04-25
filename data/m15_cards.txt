@@ -5,7 +5,7 @@
 # MAKE SURE INDENTATION IS IN TABS
 
 # ##############################
-# Name
+# Name 
 
 # 	Abilities:
 # 		cost: effect
@@ -1683,6 +1683,42 @@ Garruk's Packleader
 ##############################
 Terra Stomper
 
+
+
+############################################################
+Lightning Strike
+	Targets:
+		'creature or player'
+	targets[0].take_damage(self, 3)
+
+
+############################################################
+Divination
+	self.controller.draw(2)
+
+
+############################################################
+Jace's Ingenuity
+	self.controller.draw(3)
+
+
+############################################################
+Meditation Puzzle
+	self.controller.gain_life(8)
+
+
+############################################################
+Cancel
+		Targets:
+				'spell'
+		targets[0].counter(source=self)
+
+
+############################################################
+Naturalize
+		Targets:
+				p.is_permanent and (p.is_artifact or p.is_enchantment)
+		targets[0].destroy()
 
 
 ##############################

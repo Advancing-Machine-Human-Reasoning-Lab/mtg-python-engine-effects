@@ -1,0 +1,115 @@
+##############################
+Intimidation Bolt
+
+        Targets:
+                'creature'
+
+        # deal 3 damage to target creature
+        targets[0].take_damage(self, 3)
+        # other creatures can't attack this turn
+        [c.summoning_sick=True for c in self.controller.battlefield if c.is_creature and c is not targets[0]]
+
+##############################
+
+
+##############################
+Putrid Leech
+
+        Abilities:
+                Pay 2 life: self.card.add_effect('modifyPT', (2, 2), self, self.game.eot_time) 
+
+##############################
+
+
+##############################
+Vedalken Heretic
+
+        Triggers:
+                onDealDamage
+                        self.controller.draw(1)
+
+##############################
+
+
+##############################
+Phyrexian Arena
+        Triggers:
+                onUpkeep
+                        self.controller.lose_life(1)
+                        self.controller.draw(1)
+
+##############################
+
+
+##############################
+Banners Raised
+        Triggers:
+                onPlay
+                        [c.add_effect('modifyPT', (1, 0), self, self.game.eot_time) for c in self.controller.battlefield if c.is_creature]
+
+##############################
+
+
+##############################fix
+Disciple of Bolas
+    Targets:
+        'creature'
+
+    Triggers:
+        onEtB # when Disciple of Bolas enters the battlefield,
+            X = targets[0].power
+            targets[0].destroy() # sacrifice another creature; X = creature's power
+            self.controller.gain_life(X) # gain X life
+            self.controller.draw(X) # draw X cards
+
+##############################
+
+
+##############################
+Touch of the Eternal
+
+    Triggers:
+        onUpkeep # at the beginning of your upkeep,
+            # count the number of permanents you control; your life total becomes that number
+            self.controller.set_life_total(sum([1 for c in self.controller.battlefield if c.is_permanent]))
+
+##############################
+
+
+##############################fix
+Angelic Accord
+
+    Triggers:
+        onUpkeep # at start of turn, note current controller life
+            starting_life = self.controller.life
+
+        onControllerLifeGain # on life gain, update amount life has changed
+            life_change += starting_life - self.controller.life
+
+        onEndstep # at the beginning of each end step
+            if life_change >= 4: # if you gained 4 or more life this turn
+                # create a 4/4 white Angel creature token with flying
+                self.controller.create_token('4/4 white Angel', 1, 'Flying')
+
+##############################
+
+
+##############################
+Caustic Wasps
+
+    Triggers:
+        onCombatDamageToPlayers # whenever Caustic Wasps deals combat damage to a player
+            # you may destroy target artifact that player controls
+            Targets:
+                p.is_artifact and p.controller is not self.controller
+            targets[0].destroy()
+
+##############################
+
+
+##############################
+Tower of Fortunes
+
+    8, T: self.controller.draw(4) # pay 8 colorless mana, and tap to draw 4 cards
+
+##############################

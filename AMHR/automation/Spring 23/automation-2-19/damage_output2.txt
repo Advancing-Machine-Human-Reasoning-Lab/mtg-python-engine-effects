@@ -1,0 +1,207 @@
+##############################
+Shock
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 2)
+
+##############################
+Lightning Bolt
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Lightning Blast
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Volcanic Hammer
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Searing Wind
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 0)
+
+// damage should be 10
+
+##############################
+Cinder Storm
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 7)
+
+##############################
+Lightning Strike
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Electrify
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Open Fire
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Bombard
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Bathe in Dragonfire
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Flame Slash
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Tarfire
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 2)  
+		
+										// UP TO HERE IS GOOD //
+
+##############################
+Searing Spear
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Hornet Sting
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 1)
+
+##############################
+Command the Storm
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 5)
+
+##############################
+Precision Bolt
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Breath of Fire
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 2)
+
+##############################
+Cleansing Screech
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Flame Lash
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Fiery Finish
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 7)
+
+##############################
+Engulfing Eruption
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 5)
+
+##############################
+Fire Ambush
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Bee Sting
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 2)
+
+##############################
+Unyaro Bee Sting
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 2)
+
+##############################
+Scorching Spear
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 1)
+
+##############################
+Ragefire
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Explosive Impact
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 5)
+
+##############################
+Unfriendly Fire
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 4)
+

@@ -1,0 +1,72 @@
+onPlay # i think old cards use play and new cards use ETB synonymously 
+onDraw # when you draw a card
+onDiscard # when this card is discarded
+onEtB # when this permanent is put on the battlefield
+onPlayfromHand # when this card is played from your hand
+onEnterGrave # when this card enters the graveyard
+onDeath # when this card dies
+onLeaveBattlefield # when this card leaves the battlefield
+onUpkeep # at the start of the upkeep phase (between untap and draw steps)
+onMain1 # at the start of the first main phase (after begin, before combat)
+onMain2 # at the start of the second main phase (after combat, before end)
+onEnterCombat # when this card enters combat (declared as attacker?)
+onRevolt # when a permanent you controlled left the battlefield this turn, max 1 time
+onCreatureEtB # when a creature ETB
+onDeclareAttackers    #Activates at Phase.COMBAT:  gamesteps.Step.DECLARE_ATTACKERS of self
+                      # when ability gets activated/deactivated during declare attackers phase
+onDeclareBlockers     #Activates at Phase.COMBAT:  gamesteps.Step.DECLARE_BLOCKERS  of self
+                      # when ability gets activated/deactivated during declare blockers phase
+onEndofCombat         #Activates at Phase.COMBAT: gamesteps.Step.END_OF_COMBAT of self
+                      # when ability gets activated/deactivated at end of combat phase
+onEndstep             #Activates on Step.END: Phase.ENDING
+                      # when ability gets activated/deactivated at end step
+onCleanup             #Activites on Step.CLEANUP: Phase.ENDING
+                      # when ability gets activated/deactivated at cleanup step
+
+onControllerUpkeep    #Activates at Phase.BEGINNING: Step.UPKEEP, when self.controller = self
+                      # when ability gets activated/deactivated at beginning upkeep step
+onControllerMain1     #Activates at Phase.PRECOMBAT_MAIN: Step.PRECOMBAT_MAIN of self
+                      # when ability gets activated/deactivated at precombat main
+onControllerMain2     #Activates at Phase.POSTCOMBAT_MAIN: Step.POSTCOMBAT_MAIN of self
+                      # when ability gets activated/deactivated at postcombat main
+
+onControllerEnterCombat       #Activates at Phase.COMBAT: gamesteps.Step.BEGINNING_OF_COMBAT of self.controller
+                              # ability gets activated/deactivated when [selected] enters combat
+onControllerDeclareAttackers  #Activates at Phase.COMBAT:  gamesteps.Step.DECLARE_ATTACKERS of self.controller
+                              # same as onDeclareAttackers with target selection option
+onControllerDeclareBlockers   #Activates at Phase.COMBAT:  gamesteps.Step.DECLARE_BLOCKERS of self.controller
+                              # same as onDeclareBlockers with target selection option
+onControllerEndofCombat       #Activates at Phase.COMBAT: gamesteps.Step.END_OF_COMBAT of self.controller
+                              # same as onEndofCombat with target selection option
+onPermanentEtB                 #When Permanent is initialized, (played on the battlefield) on -> self.zone = self.controller.battlefield
+onControllerCreatureEtBa       #When Controller-> Creature is initialized on -> self.zone = self.controller.battlefield
+onControllerEndstep # end step: last opportunity for controller to perform any action before next player's turn #
+onUntap # when card gets untapped
+onTap # when card gets tapped
+onDealDamageToPlayers # when dealing damage to opponent
+onDealDamageToCreatures # when dealing damage to another creature
+onDealDamage # when dealing damage to opponent/creature
+onTakeDamage # when card takes damage (source does not matter apparently)
+onAttack # when card attacks
+onBlock # when card blocks
+onCombatDamage # when card does combat damage
+onCombatDamageToPlayers # when card does combat damage directly to players
+onControllerPermanentEtB # when a controller's permanent enters the battlefield
+onLifeLoss # when controller loses life
+onCombatDamageToCreatures # When card does combat damage to the opponent's creatures 
+onTakeCombatDamage # When card takes combat damage from another player 
+onControllerLifeLoss # When the owner of the card loses a life 
+onLifeGain # When the card gains life 
+onControllerLifeGain # When the player gains a life 
+
+***************** Probably not worth it to investigate
+##ambiguous## onCounterPutOnPermanent # When the card can permanently counter attacks? #(card Negate(counter), Pillar of light(permanent))
+onControllerCounterPutOnPermanent # When the player can permanently counter attcks?
+*****************
+
+onDrawCard # When card draws a card 
+onControllerDrawCard # When the owner of the card draws a card 
+onPlayerDiscard # When a player gives up cards
+onControllerDiscard # When the owner of the card give up cards 
+onPermanentLtB # When the card leaves the battlefield permanently (cannot find an example)
+onControllerCleanup # When the owner of the card resets battlefield values # Phase.ENDING: (Step.END, Step.CLEANUP)

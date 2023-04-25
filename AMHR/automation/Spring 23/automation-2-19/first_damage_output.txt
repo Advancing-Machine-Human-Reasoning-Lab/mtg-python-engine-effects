@@ -1,0 +1,1774 @@
+##############################
+Essence Drain
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Beacon of Destruction
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 5)
+
+##############################
+Cone of Flame
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 1)
+
+##############################
+Guerrilla Tactics
+		Targets:
+				'creature or player'
+				'creature or player'
+
+		targets[0].take_damage(self, 2)
+
+##############################
+Incinerate
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Shock
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 2)
+
+##############################
+Psionic Blast
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Lightning Bolt
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Fiery Fall
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 5)
+
+##############################
+Lava Coil
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Rift Bolt
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Sparkmage's Gambit
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 1)
+
+##############################
+Staggershock
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 2)
+
+##############################
+Fiery Justice
+		Targets:
+				'opponent'
+
+		targets[0].take_damage(self, 5)
+
+##############################
+Lightning Helix
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Prophetic Bolt
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Brimstone Volley
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Galvanic Blast
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 2)
+
+##############################
+Magma Jet
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 2)
+
+##############################
+Flare
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 1)
+
+##############################
+Hammer of Bogardan
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Lightning Blast
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Vertigo
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 2)
+
+##############################
+Volcanic Hammer
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Vicious Hunger
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 2)
+
+##############################
+Searing Wind
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 0)
+
+##############################
+Chandra's Outrage
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Cinder Storm
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 7)
+
+##############################
+Skeletonize
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Deft Dismissal
+		Targets:
+				p.is_permanent and (p.is_creature and p.in_combat)
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Chandra's Revolution
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Hungry Flames
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Rile
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 1)
+
+##############################
+Spit Flame
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Burning Hands
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 2)
+
+##############################
+Farideh's Fireball
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 5)
+
+##############################
+Improvised Weaponry
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 2)
+
+##############################
+Meteor Swarm
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 8)
+
+##############################
+Scorching Dragonfire
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Lightning Strike
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Impeccable Timing
+		Targets:
+				p.is_permanent and (p.is_creature and p.in_combat)
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Deem Worthy
+		Targets:
+				'creature'
+				'creature'
+
+		targets[0].take_damage(self, 7)
+
+##############################
+Electrify
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Magma Spray
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 2)
+
+##############################
+Open Fire
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Puncturing Blow
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 5)
+
+##############################
+Resounding Thunder
+		Targets:
+				'creature or player'
+				'creature or player'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Death Spark
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 1)
+
+##############################
+Bombard
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Reduce to Ashes
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 5)
+
+##############################
+Intimidation Bolt
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Righteous Blow
+		Targets:
+				p.is_permanent and (p.is_creature and p.in_combat)
+
+		targets[0].take_damage(self, 2)
+
+##############################
+Pillar of Flame
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 2)
+
+##############################
+Thunderous Wrath
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 5)
+
+##############################
+Bathe in Dragonfire
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Chain Lightning
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Wrap in Flames
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 1)
+
+##############################
+Gideon's Reproach
+		Targets:
+				p.is_permanent and (p.is_creature and p.in_combat)
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Roil's Retribution
+		Targets:
+				p.is_permanent and (p.is_creature and p.in_combat)
+
+		targets[0].take_damage(self, 5)
+
+##############################
+Bolt of Keranos
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Fated Conflagration
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 5)
+
+##############################
+Searing Blood
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 2)
+
+##############################
+First Volley
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 1)
+
+##############################
+Torrent of Stone
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Shower of Sparks
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 1)
+
+##############################
+Excavation Explosion
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Obliterating Bolt
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Unleash Shell
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 5)
+
+##############################
+Mizzium Mortars
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Alchemist's Greeting
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Fiery Temper
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Crushing Pain
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 6)
+
+##############################
+Glacial Ray
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 2)
+
+##############################
+Hanabi Blast
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 2)
+
+##############################
+Yamabushi's Flame
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Demon Bolt
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Lash Out
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Punishing Fire
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 2)
+
+##############################
+Burn Away
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 6)
+
+##############################
+Flame Slash
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Orcish Cannonade
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 2)
+
+##############################
+Dark Temper
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 2)
+
+##############################
+Burn the Accursed
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 5)
+
+##############################
+Play with Fire
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 2)
+
+##############################
+Sacred Fire
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 2)
+
+##############################
+Piercing Light
+		Targets:
+				p.is_permanent and (p.is_creature and p.in_combat)
+
+		targets[0].take_damage(self, 2)
+
+##############################
+Flame-Blessed Bolt
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 2)
+
+##############################
+Lacerate Flesh
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Rending Flame
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 5)
+
+##############################
+Tarfire
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 2)
+
+##############################
+Firebolt
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 2)
+
+##############################
+Searing Blaze
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 1)
+
+##############################
+Sorin's Thirst
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 2)
+
+##############################
+Blazing Salvo
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Geistflame
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 1)
+
+##############################
+Volt Charge
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Last Kiss
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 2)
+
+##############################
+Arc Trail
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 2)
+
+##############################
+Grapeshot
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 1)
+
+##############################
+Shivan Meteor
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Punish the Enemy
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Warleader's Helix
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Cackling Flames
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Twinstrike
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 2)
+
+##############################
+Burning Oil
+		Targets:
+				p.is_permanent and (p.is_creature and p.in_combat)
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Fires of Undeath
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 2)
+
+##############################
+Solar Blast
+		Targets:
+				'creature or player'
+				'creature or player'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Spark Spray
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 1)
+
+##############################
+Jaya's Firenado
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 5)
+
+##############################
+Pierce the Sky
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 7)
+
+##############################
+Roast
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 5)
+
+##############################
+Sarkhan's Rage
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 5)
+
+##############################
+Searing Spear
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Fiery Impulse
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 2)
+
+##############################
+Redcap Melee
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Searing Barrage
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 5)
+
+##############################
+Slaying Fire
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Fell the Pheasant
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 5)
+
+##############################
+Carbonize
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Flame Jab
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 1)
+
+##############################
+Incendiary Flow
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Make Mischief
+		Targets:
+				'creature or player'
+				'creature or player'
+
+		targets[0].take_damage(self, 1)
+
+##############################
+Spreading Flames
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 6)
+
+##############################
+Rekindled Flame
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Fire at Will
+		Targets:
+				p.is_permanent and (p.is_creature and p.in_combat)
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Hornet Sting
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 1)
+
+##############################
+Sandblast
+		Targets:
+				p.is_permanent and (p.is_creature and p.in_combat)
+
+		targets[0].take_damage(self, 5)
+
+##############################
+Douse in Gloom
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 2)
+
+##############################
+Cunning Strike
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 2)
+
+##############################
+Arc Blade
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 2)
+
+##############################
+Thunderblade Charge
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Ribbons of Night
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Char
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Electrickery
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 1)
+
+##############################
+Command the Storm
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 5)
+
+##############################
+Direct Current
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 2)
+
+##############################
+Precision Bolt
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Dragon's Presence
+		Targets:
+				p.is_permanent and (p.is_creature and p.in_combat)
+
+		targets[0].take_damage(self, 5)
+
+##############################
+Breath of Fire
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 2)
+
+##############################
+Cleansing Screech
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Homing Lightning
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Mugging
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 2)
+
+##############################
+Arrows of Justice
+		Targets:
+				p.is_permanent and (p.is_creature and p.in_combat)
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Mephit's Enthusiasm
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Inferno Jet
+		Targets:
+				'opponent'
+
+		targets[0].take_damage(self, 6)
+
+##############################
+Divine Arrow
+		Targets:
+				p.is_permanent and (p.is_creature and p.in_combat)
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Fire Prophecy
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Flame Spill
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Mythos of Vadrok
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 5)
+
+##############################
+Lightning Dart
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 1)
+
+##############################
+Zap
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 1)
+
+##############################
+Simoon
+		Targets:
+				'opponent'
+
+		targets[0].take_damage(self, 1)
+
+##############################
+Unholy Heat
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 2)
+
+##############################
+Firecannon Blast
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Flame Lash
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Agonizing Syphon
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Blindblast
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 1)
+
+##############################
+Flames of the Raze-Boar
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Starfall
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Ember Shot
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Lava Dart
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 1)
+
+##############################
+Lightning Surge
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Swelter
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 2)
+
+##############################
+Frost Bite
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 2)
+
+##############################
+Provoke the Trolls
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Tundra Fumarole
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Essence Extraction
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Liberating Combustion
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 6)
+
+##############################
+Arrow Storm
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Bring Low
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Psychic Purge
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 1)
+
+##############################
+Needle Drop
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 1)
+
+##############################
+Turn to Slag
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 5)
+
+##############################
+Blastfire Bolt
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 5)
+
+##############################
+Fiery Finish
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 7)
+
+##############################
+Sarkhan's Dragonfire
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Engulfing Eruption
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 5)
+
+##############################
+Soul Sear
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 5)
+
+##############################
+Slash of Talons
+		Targets:
+				p.is_permanent and (p.is_creature and p.in_combat)
+
+		targets[0].take_damage(self, 2)
+
+##############################
+Smiting Helix
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Dual Shot
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 1)
+
+##############################
+Lightning Javelin
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Release the Ants
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 1)
+
+##############################
+Burn the Impure
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Stolen Grain
+		Targets:
+				'opponent'
+
+		targets[0].take_damage(self, 5)
+
+##############################
+Fire Ambush
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Forked Lightning
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Bee Sting
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 2)
+
+##############################
+Pyrophobia
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Unyaro Bee Sting
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 2)
+
+##############################
+Lunge
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 2)
+
+##############################
+Electrostatic Bolt
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 2)
+
+##############################
+Wanderer's Intervention
+		Targets:
+				p.is_permanent and (p.is_creature and p.in_combat)
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Kami's Flare
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Seismic Wave
+		Targets:
+				'creature or player'
+				'opponent'
+
+		targets[0].take_damage(self, 2)
+
+##############################
+Morbid Hunger
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Engulfing Flames
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 1)
+
+##############################
+Thermal Blast
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Chain of Plasma
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Pinpoint Avalanche
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Searing Flesh
+		Targets:
+				'opponent'
+
+		targets[0].take_damage(self, 7)
+
+##############################
+Exquisite Firecraft
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Aerial Volley
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Kiss of Death
+		Targets:
+				'opponent'
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Jagged Lightning
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Rhystic Lightning
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Vampiric Feast
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Singe
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 1)
+
+##############################
+Vampiric Touch
+		Targets:
+				'opponent'
+
+		targets[0].take_damage(self, 2)
+
+##############################
+Scorching Spear
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 1)
+
+##############################
+Unleash the Inferno
+		Targets:
+				'creature'
+				p.is_permanent and (p.is_artifact or p.is_enchantment)
+
+		targets[0].take_damage(self, 7)
+
+##############################
+Burning Fields
+		Targets:
+				'opponent'
+
+		targets[0].take_damage(self, 5)
+
+##############################
+Enter the God-Eternals
+		Targets:
+				'creature'
+				'player'
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Repeating Barrage
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Reckless Rage
+		Targets:
+				'creature'
+				'creature'
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Scorchmark
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 2)
+
+##############################
+Ragefire
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Spawning Breath
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 1)
+
+##############################
+Leaf Arrow
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Annihilating Fire
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Explosive Impact
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 5)
+
+##############################
+Scattershot
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 1)
+
+##############################
+Burn Trail
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Puncture Bolt
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 1)
+
+##############################
+Strangle
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Geistblast
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 2)
+
+##############################
+Explosive Welcome
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 5)
+
+##############################
+Igneous Inspiration
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Pigment Storm
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 5)
+
+##############################
+Creative Outburst
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 5)
+
+##############################
+Fateful End
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Pharika's Cure
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 2)
+
+##############################
+Rage of Purphoros
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Spark Jolt
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 1)
+
+##############################
+Shredding Winds
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 7)
+
+##############################
+Kamahl's Sledge
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Eelectrocute
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 2)
+
+##############################
+Well Done
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 5)
+
+##############################
+Deal Damage
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Chandra's Triumph
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Jaya's Greeting
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Ral's Outburst
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Dark Nourishment
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Unfriendly Fire
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Melt Through
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 2)
+
+##############################
+Sap Vitality
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 3)
+
+##############################
+Electrostatic Blast
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 2)
+
+##############################
+Molten Impact
+		Targets:
+				'creature'
+				'creature'
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Pass the Torch
+		Targets:
+				'creature or player'
+
+		targets[0].take_damage(self, 2)
+
+##############################
+Sizzling Barrage
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Synchronized Spellcraft
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 4)
+
+##############################
+Thundering Rebuke
+		Targets:
+				'creature'
+
+		targets[0].take_damage(self, 4)
+

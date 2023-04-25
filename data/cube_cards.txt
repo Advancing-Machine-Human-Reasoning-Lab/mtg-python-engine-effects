@@ -2163,3 +2163,515 @@ Westvale Abbey
 #
 
 ##############################
+##############################
+Sapling of Colfenor
+	self.card.add_effect('gainAbility', 'Indestructible', self)
+	Triggers:
+		onAttack
+			self.game.apply_to_battlefield(lambda card: self.controller.gain_life(card.toughness) and self.controller.lose_life(card.power) and card.owner = self.controller, lambda card: card == self.opponent.library.pop() and card.is_creature)
+
+
+############################################################
+Stillmoon Cavalier
+	Abilities:
+		W,B: self.card.add_effect('gainAbility', 'Flying', self, self.game.eot_time)
+		W,B: self.card.add_effect('gainAbility', 'First Strike', self, self.game.eot_time)
+		2(W,B): self.card.add_effect('modifyPT', (2,1), self, self.game.eot_time)
+
+
+############################################################
+Shaman of the Great Hunt
+	Abilities:
+		Ferocious, 2(G,U): self.controller.draw(sum([1 for card in self.hand if card.is_creature and card.power >= 4]))
+	Triggers:
+		onCombatDamageToPlayers
+			self.card.add_counter("+1, +1")
+
+
+############################################################
+Warped Physique
+	Targets:
+		'creature'
+	targets[0].add_effect('modifyPT', (len(self.controller.hand), -(len(self.controller.hand))), self, self.game.eot_time)
+
+
+############################################################
+Hand of Silumgar
+	self.card.add_effect('gainAbility', 'Deathtouch', self)
+
+
+############################################################
+Ray of Revelation
+	Targets:
+		'enchantment'
+	targets[0].destroy()
+	Abilities:
+		G: self.card.exile() # not sure if we should use that
+
+
+############################################################
+Putrid Leech
+	Abilities:
+		Pay 2 life: self.card.add_effect('modifyPT', (2, 2), self, self.game.eot_time)
+
+
+############################################################
+Vedalken Heretic
+	Triggers:
+		onDealDamage
+			self.controller.draw(1)
+
+
+############################################################
+Phyrexian Arena
+	Triggers:
+		onUpkeep
+			self.controller.lose_life(1)
+			self.controller.draw(1)
+
+
+############################################################
+Tower of Fortunes
+	Abilities:
+		8, T: self.controller.draw(4) # pay 8 colorless mana, and tap to draw 4 cards
+
+
+############################################################
+Touch of the Eternal
+	Triggers:
+		onUpkeep
+			self.controller.set_life_total(sum([1 for c in self.controller.battlefield if c.is_permanent]))
+
+
+############################################################
+Moorland Inquisitor
+	Abilities:
+    	2, P: self.card.add_effect('gainAbility', 'First Strike', self, self.game.eot_time)
+
+
+############################################################
+Root Spider
+	Triggers:
+		onBlock
+			self.card.add_effect('modifyPT', (1, 0), self, self.game.eot_time)
+			self.card.add_effect('gainAbility', 'firstStrike', self, self.game.eot_time)
+
+
+############################################################
+Eternal Witness
+	Targets:
+		p.zone_type == 'GRAVEYARD'
+			Prompt:
+				Choose target card from graveyard\n
+	target[0].change_zone(self.controller.hand)
+
+
+############################################################
+Ray of Revelation
+	Targets:
+    	'enchantment'
+  	targets[0].destroy()
+  	G: self.card.exile()
+
+
+############################################################
+Shock
+	Targets:
+		'creature or player'
+	targets[0].take_damage(self, 2)
+
+
+############################################################
+Lightning Bolt
+	Targets:
+		'creature or player'
+	targets[0].take_damage(self, 3)
+
+
+############################################################
+Lightning Blast
+	Targets:
+		'creature or player'
+	targets[0].take_damage(self, 4)
+
+
+############################################################
+Volcanic Hammer
+	Targets:
+		'creature or player'
+	targets[0].take_damage(self, 3)
+
+
+############################################################
+Searing Wind
+	Targets:
+		'creature or player'
+	targets[0].take_damage(self, 10)
+
+
+############################################################
+Cinder Storm
+	Targets:
+		'creature or player'
+	targets[0].take_damage(self, 7)
+
+
+############################################################
+Electrify
+	Targets:
+		'creature'
+	targets[0].take_damage(self, 4)
+
+
+############################################################
+Open Fire
+	Targets:
+		'creature or player'
+	targets[0].take_damage(self, 3)
+
+
+############################################################
+Bombard
+	Targets:
+		'creature'
+	targets[0].take_damage(self, 4)
+
+
+############################################################
+Bathe in Dragonfire
+	Targets:
+		'creature'
+	targets[0].take_damage(self, 4)
+
+
+############################################################
+Flame Slash
+	Targets:
+		'creature'
+	targets[0].take_damage(self, 4)
+
+
+############################################################
+Tarfire
+	Targets:
+		'creature or player'
+	targets[0].take_damage(self, 2)
+
+
+############################################################
+Searing Spear
+	Targets:
+		'creature or player'
+	targets[0].take_damage(self, 3)
+
+
+############################################################
+Hornet Sting
+	Targets:
+		'creature or player'
+	targets[0].take_damage(self, 1)
+
+
+############################################################
+Command the Storm
+	Targets:
+		'creature'
+	targets[0].take_damage(self, 5)
+
+
+############################################################
+Precision Bolt
+	Targets:
+		'creature or player'
+	targets[0].take_damage(self, 3)
+
+
+############################################################
+Breath of Fire
+	Targets:
+		'creature'
+	targets[0].take_damage(self, 2)
+
+
+############################################################
+Cleansing Screech
+	Targets:
+		'creature or player'
+	targets[0].take_damage(self, 4)
+
+
+############################################################
+Flame Lash
+	Targets:
+		'creature or player'
+	targets[0].take_damage(self, 4)
+
+
+############################################################
+Fiery Finish
+	Targets:
+		'creature'
+	targets[0].take_damage(self, 7)
+
+
+############################################################
+Engulfing Eruption
+	Targets:
+		'creature'
+	targets[0].take_damage(self, 5)
+
+
+############################################################
+Fire Ambush
+	Targets:
+		'creature or player'
+	targets[0].take_damage(self, 3)
+
+
+############################################################
+Bee Sting
+	Targets:
+		'creature or player'
+	targets[0].take_damage(self, 2)
+
+
+############################################################
+Unyaro Bee Sting
+	Targets:
+		'creature or player'
+	targets[0].take_damage(self, 2)
+
+
+############################################################
+Scorching Spear
+	Targets:
+		'creature or player'
+	targets[0].take_damage(self, 1)
+
+
+############################################################
+Ragefire
+	Targets:
+		'creature'
+	targets[0].take_damage(self, 3)
+
+
+############################################################
+Explosive Impact
+	Targets:
+		'creature or player'
+	targets[0].take_damage(self, 5)
+
+
+############################################################
+Unfriendly Fire
+	Targets:
+		'creature or player'
+	targets[0].take_damage(self, 4)
+
+
+############################################################
+Counsel of the Soratami
+	self.controller.draw(2)
+
+
+############################################################
+Sift
+	self.controller.draw(3)
+	self.controller.discard(1)
+
+
+############################################################
+Tidings
+	self.controller.draw(4)
+
+
+############################################################
+Catalog
+	self.controller.draw(2)
+	self.controller.discard(1)
+
+
+############################################################
+Concentrate
+	self.controller.draw(3)
+
+
+############################################################
+Harmonize
+	self.controller.draw(3)
+
+
+############################################################
+Brilliant Plan
+	self.controller.draw(3)
+
+
+############################################################
+Reach Through Mists
+	self.controller.draw(1)
+
+
+############################################################
+Prying Eyes
+	self.controller.draw(4)
+	self.controller.discard(4)
+
+
+############################################################
+Enhanced Awareness
+	self.controller.draw(3)
+	self.controller.discard(1)
+
+
+############################################################
+Weave Fate
+	self.controller.draw(2)
+
+
+############################################################
+Rain of Revelation
+	self.controller.draw(3)
+	self.controller.discard(1)
+
+
+############################################################
+Careful Study
+	self.controller.draw(2)
+	self.controller.discard(2)
+
+
+############################################################
+Touch of Brilliance
+	self.controller.draw(2)
+
+
+############################################################
+Thoughtflare
+	self.controller.draw(4)
+	self.controller.discard(4)
+
+
+############################################################
+Sacred Nectar
+	self.controller.gain_life(4)
+
+
+############################################################
+Spring of Eternal Peace
+	self.controller.gain_life(8)
+
+
+############################################################
+Chaplain's Blessing
+	self.controller.gain_life(5)
+
+
+############################################################
+Rejuvenate
+	self.controller.gain_life(6)
+
+
+############################################################
+Angel's Mercy
+	self.controller.gain_life(7)
+
+
+############################################################
+Nourish
+	self.controller.gain_life(6)
+
+
+############################################################
+Whitesun's Passage
+	self.controller.gain_life(5)
+
+
+############################################################
+Moorland Inquisitor
+	self.card.add_effect('gainAbility', 'First Strike', self, self.game.eot_time)
+
+
+############################################################
+Reito Lantern
+	Targets:
+		p.zone_type == 'GRAVEYARD'
+	targets[0].change_zone(p.owner.library, -1, False)
+
+
+############################################################
+Karplusan Wolverine
+	Targets:
+		'creature or player'
+	targets[0].take_damage(self, 1)
+
+
+############################################################
+Elder Druid
+	Targets:
+		'creature or land or artifact'
+	[targets[0].untap() if targets[0].status.tapped else targets[0].tap()]
+
+
+############################################################
+Songs of the Damned
+	[self.mana.add_str('B') for i in self.controller.graveyard if i.is_creature]
+
+
+############################################################
+Disenchant
+		Targets:
+				p.is_permanent and (p.is_artifact or p.is_enchantment)
+		targets[0].destroy()
+
+
+############################################################
+Counterspell
+		Targets:
+				'spell'
+		targets[0].counter(source=self)
+
+
+############################################################
+Nature's Chant
+		Targets:
+				p.is_permanent and (p.is_artifact or p.is_enchantment)
+		targets[0].destroy()
+
+
+############################################################
+Sundering Vitae
+		Targets:
+				p.is_permanent and (p.is_artifact or p.is_enchantment)
+		targets[0].destroy()
+
+
+############################################################
+Mortify
+		Targets:
+				'creature'
+		targets[0].destroy()
+
+
+############################################################
+Murder
+		Targets:
+				'creature'
+		targets[0].destroy()
+
+
+############################################################
+Mob
+		Targets:
+				'creature'
+		targets[0].destroy()
+
+
+############################################################
+Eviscerate
+		Targets:
+				'creature'
+		targets[0].destroy()
+
+
+##############################

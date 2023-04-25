@@ -1,0 +1,178 @@
+##############################
+Skyrider Trainee
+	 
+	# Skyrider Trainee (has) flying as long as it's enchanted .
+
+	self.card.add_effect('gainAbility', 'Flying', lambda eff: eff.source.enchant_target != None) #enchant_target from permanent.py
+
+##############################
+Vedalken Plotter
+	
+	Targets:
+		'player'
+
+		p.is_land and p.controller is self.controller
+			Prompt:
+				Choose land you control\n
+			
+			targets[0].deck.append(self.card)
+			self.discard(self.card)
+
+		p.is_land and p.controller is not self.controller
+			Prompt:
+				Choose target land\n
+			
+			self.deck.append(p.card)
+			targets[0].discard(p.card)
+
+##############################
+Aliban's Tower
+	#Target blocking creature gets +3/+1 until end of turn
+
+	Targets:
+		'creature'
+		onPlay
+      creature.status.is_blocking         #combat.py
+			self.targets_chosen[0].add_effect('modifyPT', (3, 1), self, self.game.eot_time)
+
+
+############################## INCOMPLETE 
+Eron the Relentless
+	Triggers:
+    onPlayfromHand
+      3R:
+        self.tap()
+        #remove damage
+        #remove from combat
+
+##############################
+Root Spider
+	# Whenever Root Spider blocks , it gets +1/+0 and gains first strike until end of turn
+		
+	Triggers:
+		onBlock
+			
+			self.card.add_effect('modifyPT', (1, 0), self, self.game.eot_time)
+			self.card.add_effect('gainAbility', 'firstStrike', self, self.game.eot_time)
+
+##############################
+Elder Druid
+	#{ 3}{G } , { tap }: You may tap or untap target artifact , creature , or land .
+	
+	Targets:
+		'creature' or 'artifact' or 'land'
+
+	Triggers:						
+		onTap
+		3, G, T:  
+			if (!self.targets_chosen[0].status.tapped):
+				self.targets_chosen[0].tap()
+			else:
+				self.targets_chosen[0].untap()
+			
+
+##############################
+Hecatomb
+# When Hecatomb enters the battlefield , 
+# sacrifice Hecatomb unless you sacrifice four creatures . 
+# $Tap an untapped Swamp you control : Hecatomb deals 1 damage to target creature or player .
+	
+  Triggers:
+	  onEtB
+
+	  Abilities:
+
+      If self.controller.make_choice("sacrifice Hecatomb unless you sacrifice four creatures")
+
+        self.controller.sacrifice()
+
+      Else
+		    [self.targets_chosen[0].sacrifice() for i in range(1,4)]
+			    Targets:
+				    p.is_permanent and p.is_creature and p.controller == self.controller and p != self		#Paragon of new dawns			
+
+	    B:
+		    Targets:
+		    'creature or player'
+			    targets[0].take_damage(self, 1)
+
+##############################
+Lhurgoyf
+#Lhurgoyf's power is equal to the number of creature cards in all graveyards
+#and its toughness is equal to that number plus 1 . #referred to congregate m_15
+#Congregate
+
+	Abilities:
+		self.card.add_effect('modifyPT', (len([p for plyr in self.controller.game.players_list 
+                                                                for p in plyr.graveyard 
+                                                                if p.is_creature]),   
+                                      len([p for plyr in self.controller.game.players_list 
+                                                                for p in plyr.graveyard 
+                                                                if p.is_creature]) + 1), self)
+
+##############################
+Pyknite
+#When Pyknite enters the battlefield , 
+#draw a card at the beginning of the next turn's upkeep .
+	Triggers:
+		onEtB
+		onUpkeep
+			self.controller.draw(1)
+				If:
+					self.turn_num + 2 == game.turn_num
+
+
+#############################
+Songs of the Damned
+#Add { B } to your mana pool for each creature card in your graveyard .
+	Triggers:
+		onPlay
+			[self.controller.mana.add(mana.Mana.BLACK, 1) for c in self.controller.graveyard if c.is_creature]
+
+#############################fix
+Whiteout
+# All creatures lose flying until end of turn . 
+# $Sacrifice a snow land : Return Whiteout from your graveyard to your hand .
+
+	Triggers:
+		onPlay
+			[c.add_effect('loseAbility', 'Flying', self, self.game.eot_time) for c in self.controller.battlefield if c.is_creature]    #lose effect can be used?
+# or use -> category.remove(eff) //permanent.py
+
+	Abilities:
+		S: self.bounce()
+
+#############################
+Ashmouth Hound
+
+	#Whenever Ashmouth Hound blocks or becomes blocked by a creature , 
+	#Ashmouth Hound deals 1 damage to (that) creature .
+  
+  Targets:
+		'creature'
+      If:
+          targets[0] is self.controller.status.is_attacking    #or self.status.is_attacking
+            or targets[0].controller.status.is_attack is self.controller
+                targets[0].take_damage(self, 1)
+          
+#############################
+Cackling Counterpart
+
+	#Put a token onto the battlefield that's a copy of target creature you control . 
+	#$Flashback { 5}{U}{U } 
+	#< i > (You may cast this card from your graveyard for its flashback cost . Then exile it . ) < /i > exile
+
+Triggers:
+  onPlay
+    Targets:
+      'creature'
+        self.controller.create_token(targets[0])
+  If:  
+    self.controller.dies()      #permanent.py
+    Prompt: You may cast this card from your graveyard for its flashback cost . Then exile it.
+    
+      5,U:
+        self.controller.bounce()
+        self.controller.create_token(targets[0])
+        
+        self.controller.exile()

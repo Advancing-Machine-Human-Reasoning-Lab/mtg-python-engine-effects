@@ -1,6 +1,6 @@
-12 Plains
-1 Oreskos Swiftclaw
-6 Soulmender
-3 Sungrace Pegasus
-6 Ajani's Pridemate
-2 Tireless Missionaries
+7 Reito Lantern
+8 Catalog
+8 Ray of Revelation
+6 Harmonize
+6 Nature's Chant
+10 Bombard

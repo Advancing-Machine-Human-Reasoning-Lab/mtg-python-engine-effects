@@ -179,6 +179,7 @@ class Player():
 
 
                     # timing & restrictions
+                    print(f'checking if can play {card.name}')
                     can_play = True
                     if card.is_land and self.landPlayed >= self.landPerTurn:
                         can_play = False
@@ -193,6 +194,7 @@ class Player():
 
                     # choose targets
                     if can_play:
+                        print("can play!")
                         can_target = card.targets()
 
 
@@ -200,6 +202,7 @@ class Player():
                     if can_play and can_target:
                         can_pay = False
                         cost = card.manacost
+                        print(f"the cost of {card.name} is {cost}")
                         creatures_to_tap = []
 
                         if card.has_ability("Convoke"):
@@ -250,6 +253,7 @@ class Player():
                         print("{} playing {} targeting {}\n".format(self, card, card.targets_chosen))
                         _play = play.Play(card.play_func,
                                           card=card)
+                        print(f'_play: {_play}')
                         # special actions
                         if card.is_land:
                             _play.is_special_action = True

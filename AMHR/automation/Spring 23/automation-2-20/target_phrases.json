@@ -1,0 +1,18 @@
+{
+    "to any target" : "'creature or player'",
+    "to target creature" : "'creature'",
+    "Target creature" : "'creature'",
+    "target creature" : "'creature'",
+    "Target player" : "'player'",
+    "target artifact or enchantment" : "p.is_permanent and (p.is_artifact or p.is_enchantment)",
+    "target attacking or blocking creature" : "p.is_permanent and (p.is_creature and p.in_combat)",
+    "Target opponent" : "'opponent'",
+    "target opponent" : "'opponent'",
+    "target creature an opponent controls" : "'Opponent creature'",
+    "target nonland permanent" : "p.is_permanent and not p.is_land",
+    "target noncreature spell" : "'instant or sorcery spell'",
+    "target spell" : "'spell'",
+    "Exile target creature with toughness 4 or greater" : "p.is_permanent and (p.is_creature and p.toughness >= 4)",
+    "Exile target attacking or blocking creature" : "p.is_permanent and (p.is_creature and p.in_combat)"
+
+}

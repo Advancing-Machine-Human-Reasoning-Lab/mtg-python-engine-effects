@@ -1,0 +1,23 @@
+{
+    "{0} enters the battlefield" : "onEtB",
+    "beginning of.*?upkeep" : "onUpkeep",
+    "{0} attacks" : "onAttack",
+    "{0} is dealt combat damage" : "onTakeCombatDamage",
+    "you draw a card" : "onControllerDrawCard",
+    "{0} dies" : "onDeath",
+    "deals combat damage to a player" : "onCombatDamageToPlayers",
+    "{0} blocks" : "onBlock",
+    "Whenever you draw a card" : "onDraw",
+    "Whenever you discard a card" : "onDiscard",
+    "Whenever you cycle or discard a card" : "onDiscard",
+    "put into a graveyard" : "onEnterGrave",
+    "{0} leaves the battlefield" : "onLeaveBattlefield",
+    "whenever you lose a life" : "onControllerLifeLoss",
+    "target player discard" : "onControllerDiscard",
+    "you gain life" : "onControllerLifeGain",
+    "during your turn , before attackers are declared" : "onEnterCombat",
+    "end of combat" : "onEndofCombat",
+    "end step" : "onEndstep",
+    "during your untap step" : "onUntap",
+    "permanent.*?enters the battlefield" : "onPermanentEtB"
+}

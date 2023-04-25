@@ -1,0 +1,39 @@
+##############################
+Sacred Nectar
+
+		self.controller.gain_life(4)
+
+##############################
+Spring of Eternal Peace
+
+		self.controller.gain_life(8)
+
+##############################
+Chaplain's Blessing
+
+		self.controller.gain_life(5)
+
+##############################
+Rejuvenate
+
+		self.controller.gain_life(6)
+
+##############################
+Angel's Mercy
+
+		self.controller.gain_life(7)
+
+##############################
+Nourish
+
+		self.controller.gain_life(6)
+
+##############################
+Whitesun's Passage
+
+		self.controller.gain_life(5)
+
+##############################
+Meditation Puzzle
+
+		self.controller.gain_life(8)

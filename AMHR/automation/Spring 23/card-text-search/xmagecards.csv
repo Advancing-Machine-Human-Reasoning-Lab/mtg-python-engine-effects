@@ -1,0 +1,665 @@
+name,attack,defense,cost,type,text
+Cloven Casting,,,{5}{U}{R},Enchantment,"Whenever you cast a multicolored instant or sorcery spell , you may pay { 1 } . If you do , copy that spell . You may choose new targets for the copy ."
+Ethersworn Shieldmage,2,2,{1}{W}{U},Artifact Creature - Vedalken Wizard,"Flash$When Ethersworn Shieldmage enters the battlefield , prevent all damage that would be dealt to artifact creatures this turn ."
+Intimidation Bolt,,,{1}{R}{W},Instant,Intimidation Bolt deals 3 damage to target creature . Other creatures can't attack this turn .
+Mage Slayer,,,{1}{R}{G},Artifact - Equipment,"Whenever equipped creature attacks , it deals damage equal to its power to defending player . $Equip { 3 }"
+Putrid Leech,2,2,{B}{G},Creature - Zombie Leech,Pay 2 life : Putrid Leech gets +2/+2 until end of turn . Activate this ability only once each turn .
+Sovereigns of Lost Alara,5,4,{4}{W}{U},Creature - Spirit,"Exalted < i > (Whenever a creature you control attacks alone , that creature gets +1/+1 until end of turn . ) < /i > $Whenever a creature you control attacks alone , you may search your library for an Aura card that could enchant that creature , put it onto the battlefield attached to that creature , then shuffle your library ."
+Vedalken Heretic,1,1,{G}{U},Creature - Vedalken Rogue,"Whenever Vedalken Heretic deals damage to an opponent , you may draw a card ."
+Dystopia,,,{1}{B}{B},Enchantment,"Cumulative upkeep-Pay 1 life . < i > (At the beginning of your upkeep , put an age counter on this permanent , then sacrifice it unless you pay its upkeep cost for each age counter on it . ) < /i > $At the beginning of each player's upkeep , that player sacrifices a green or white permanent ."
+Phelddagrif,4,4,{1}{G}{W}{U},Legendary Creature - Phelddagrif,{ G }: Phelddagrif gains trample until end of turn . Target opponent puts a 1/1 green Hippo creature token onto the battlefield . ${W }: Phelddagrif gains flying until end of turn . Target opponent gains 2 life . ${U }: Return Phelddagrif to its owner's hand . Target opponent may draw a card .
+Yavimaya Ants,1,5,{2}{G}{G},Creature - Insect,"Trample , haste$Cumulative upkeep { G}{G } < i > (At the beginning of your upkeep , put an age counter on this permanent , then sacrifice it unless you pay its upkeep cost for each age counter on it . ) < /i >"
+Priest of Yawgmoth,2,1,{1}{B},Creature - Human Cleric,"{ tap } , Sacrifice an artifact : Add to your mana pool an amount of { B } equal to the sacrificed artifact's converted mana cost ."
+Cromat,5,5,{W}{U}{B}{R}{G},Legendary Creature - Illusion,{ W}{B }: Destroy target creature blocking or blocked by Cromat . ${U}{R }: Cromat gains flying until end of turn . ${B}{G }: Regenerate Cromat . ${R}{W }: Cromat gets +1/+1 until end of turn . ${G}{U }: Put Cromat on top of its owner's library .
+Fungal Shambler,4,6,{4}{G}{U}{B},Creature - Fungus Beast,"Trample$Whenever Fungal Shambler deals damage to an opponent , you draw a card and that opponent discards a card ."
+Legacy Weapon,,,{7},Legendary Artifact,"{ W}{U}{B}{R}{G }: Exile target permanent . $If Legacy Weapon would be put into a graveyard from anywhere , reveal Legacy Weapon and shuffle it into its owner's library instead ."
+Phyrexian Arena,,,{1}{B}{B},Enchantment,"At the beginning of your upkeep , you draw a card and you lose 1 life ."
+Strength of Night,,,{2}{G},Instant,"Kicker { B } < i > (You may pay an additional { B } as you cast this spell . ) < /i > $Creatures you control get +1/+1 until end of turn . If Strength of Night was kicked , Zombie creatures you control get an additional +2/+2 until end of turn ."
+Army of Allah,,,{1}{W}{W},Instant,Attacking creatures get +2/+0 until end of turn .
+Skirk Commando,1,2,{1}{R}{R},Creature - Goblin,"Whenever Skirk Commando deals combat damage to a player , you may have it deal 2 damage to target creature that player controls . $Morph { 2}{R } < i > (You may cast this card face down as a 2/2 creature for { 3 } . Turn it face up any time for its morph cost . ) < /i >"
+Banners Raised,,,{R},Instant,Creatures you control get +1/+0 until end of turn .
+Commander's Authority,,,{4}{W},Enchantment - Aura,"Enchant creature$Enchanted creature has "" At the beginning of your upkeep , put a 1/1 white Human creature token onto the battlefield . """
+Devout Chaplain,2,2,{2}{W},Creature - Human Cleric,"{ tap } , Tap two untapped Humans you control : Exile target artifact or enchantment ."
+Fettergeist,4,3,{2}{U},Creature - Spirit,"Flying$At the beginning of your upkeep , sacrifice Fettergeist unless you pay { 1 } for each other creature you control ."
+Guise of Fire,,,{R},Enchantment - Aura,Enchant creature$Enchanted creature gets +1/-1 and attacks each turn if able .
+Lair Delve,,,{2}{G},Sorcery,Reveal the top two cards of your library . Put all creature and land cards revealed this way into your hand and the rest on the bottom of your library in any order .
+Moorland Inquisitor,2,2,{1}{W},Creature - Human Soldier,{ 2}{W }: Moorland Inquisitor gains first strike until end of turn .
+Restoration Angel,4,3,{3}{W},Creature - Angel,"Flash$Flying$When Restoration Angel enters the battlefield , you may exile target non-Angel creature you control , then return that card to the battlefield under your control ."
+Snare the Skies,,,{G},Instant,Target creature gets +1/+1 and gains reach until end of turn . < i > (It can block creatures with flying . ) < /i >
+"Tibalt, the Fiend-Blooded",,,{R}{R},Planeswalker - Tibalt,"+1 : Draw a card , then discard a card at random . $-4 : Tibalt , the Fiend-Blooded deals damage equal to the number of cards in target player's hand to that player . $-6 : Gain control of all creatures until end of turn . Untap them . They gain haste until end of turn ."
+Wild Defiance,,,{2}{G},Enchantment,"Whenever a creature you control becomes the target of an instant or sorcery spell , that creature gets +3/+3 until end of turn ."
+Belligerent Whiptail,2,4,{3}{R},Creature - Wurm,"< i > Landfall < /i > â€” Whenever a land enters the battlefield under your control , Belligerent Whiptail gains first strike until end of turn ."
+Carrier Thrall,1,2,{1}{B},Creature - Vampire,"When Carrier Thrall dies , put a 1/1 colorless Eldrazi Scion token onto the battlefield . It has "" Sacrifice this creature . Add { C } to your mana pool . """
+Dominator Drone,2,3,{2}{B},Creature - Eldrazi Drone,"Devoid < i > (This creature has no color . ) < /i > $Ingest < i > (Whenever this creature deals combat damage to a player , that player exiles the top card of his or her library . ) < /i > $When Dominator Drone enters the battlefield , if you control another colorless creature , each opponent loses 2 life ."
+Geyserfield Stalker,2,3,{4}{B},Creature - Elemental,"Menace$ < i > Landfall < /i > - Whenever a land enters the battlefield under your control , Geyserfield Stalker gets +2/+2 until end of turn ."
+Infuse with the Elements,,,{3}{G},Instant,"< i > Converge < /i > - Put X +1/+1 counters on target creature , where X is the number of colors of mana spent to cast Infuse with the Elements . That creature gains trample until end of turn ."
+March from the Tomb,,,{3}{W}{B},Sorcery,Return any number of target Ally creature cards with total converted mana cost 8 or less from your graveyard to the battlefield .
+Oracle of Dust,5,3,{4}{U},Creature - Eldrazi Processor,"Devoid < i > (This card has no color . ) < /i > ${2 } , Put a card an opponent owns from exile into that player's graveyard : Draw a card , then discard a card ."
+Retreat to Valakut,,,{2}{R},Enchantment,"< i > Landfall < /i > â€” Whenever a land enters the battlefield under your control , choose one â€” $â€¢ Target creature gets +2/+0 until end of turn . $â€¢ Target creature can't block this turn ."
+Shambling Vent,,,,Land,Shambling Vent enters the battlefield tapped . ${T }: Add { W } or { B } to your mana pool . ${1}{W}{B }: Shambling Vent becomes a 2/3 white and black elemental creature with lifelink until end of turn . It's still a land .
+Swarm Surge,,,{2}{B},Sorcery,Devoid < i > (This card has no color . ) < /i > $Creatures you control get +2/+0 until end of turn . Colorless creatures you control also gain first strike until end of turn .
+Unnatural Aggression,,,{2}{G},Instant,"Devoid < i > (This card has no color . ) < /i > $Target creature you control fights target creature an opponent controls . If the creature an opponent controls would die this turn , exile it instead ."
+Baku Altar,,,{2},Artifact,"Whenever you cast a Spirit or Arcane spell , you may put a ki counter on Baku Altar . ${2 } , { tap } , Remove a ki counter from Baku Altar : Put a 1/1 colorless Spirit creature token onto the battlefield ."
+Eradicate,,,{2}{B}{B},Sorcery,"Exile target nonblack creature . Search its controller's graveyard , hand , and library for all cards with the same name as that creature and exile them . Then that player shuffles his or her library ."
+Harbinger of Spring,1,2,{4}{G},Creature - Spirit,"Protection from non-Spirit creatures$Soulshift 4 < i > (When this creature dies , you may return target Spirit card with converted mana cost 4 or less from your graveyard to your hand . ) < /i >"
+Kami of Tattered Shoji,5,2,{4}{W},Creature - Spirit,"Whenever you cast a Spirit or Arcane spell , Kami of Tattered Shoji gains flying until end of turn ."
+Moonlit Strider,4,1,{3}{W},Creature - Spirit,"Sacrifice Moonlit Strider : Target creature you control gains protection from the color of your choice until end of turn . $Soulshift 3 < i > (When this creature dies , you may return target Spirit card with converted mana cost 3 or less from your graveyard to your hand . ) < /i >"
+Psychic Spear,,,{B},Sorcery,Target player reveals his or her hand . You choose a Spirit or Arcane card from it . That player discards that card .
+Shuriken,,,{1},Artifact - Equipment,"Equipped creature has "" { tap } , Unattach Shuriken : Shuriken deals 2 damage to target creature . That creature's controller gains control of Shuriken unless it was unattached from a Ninja . "" $Equip { 2 } < i > ({2 }: Attach to target creature you control . Equip only as a sorcery . ) < /i >"
+Terashi's Verdict,,,{1}{W},Instant - Arcane,Destroy target attacking creature with power 3 or less .
+"Yukora, the Prisoner",5,5,{2}{B}{B},Legendary Creature - Demon Spirit,"When Yukora , the Prisoner leaves the battlefield , sacrifice all non-Ogre creatures you control ."
+"Brimaz, King of Oreskos",4,3,{1}{W}{W},Legendary Creature   Cat Soldier,"Vigilance$Whenever Brimaz , King of Oreskos attacks , put a 1/1 white Cat Soldier creature token with vigilance onto the battlefield attacking . $Whenever Brimaz blocks a creature , put a 1/1 white Cat Soldier creature token with vigilance onto the battlefield blocking that creature ."
+Evanescent Intellect,,,{U},Enchantment - Aura,"Enchant creature$Enchanted creature has "" { 1}{U } , { T }: Target player puts the top three cards of his or her library into his or her graveyard . """
+Forsaken Drifters,2,4,{3}{B},Creature - Zombie,"When Forsaken Drifters dies , put the top four cards of your library into your graveyard ."
+"Kiora, the Crashing Wave",,,{2}{G}{U},Planeswalker   Kiora,"+1 : Until your next turn , prevent all damage that would be dealt to and dealt by target permanent an opponent controls . $-1 : Draw a card . You may play an additional land this turn . $-5 : You get an emblem with "" At the beginning of your end step , put a 9/9 blue Kraken creature token onto the battlefield . """
+Nyxborn Wolf,1,3,{2}{G},Enchantment Creature   Wolf,Bestow { 4}{G}$Enchanted creature gets +3/+1 .
+Retraction Helix,,,{U},Instant,"Until end of turn , target creature gains "" { T }: Return target nonland permanent to its owner's hand . """
+Spirit of the Labyrinth,1,3,{1}{W},Enchantment Creature   Spirit,Each player can't draw more than one card each turn .
+Whelming Wave,,,{2}{U}{U},Sorcery,"Return all creatures to their owners ' hands except for Krakens , Leviathans , Octopuses and Serpents ."
+"Boseiju, Who Shelters All",,,,Legendary Land,"Boseiju , Who Shelters All enters the battlefield tapped . ${tap } , Pay 2 life : Add { C } to your mana pool . If that mana is spent on an instant or sorcery spell , that spell can't be countered by spells or abilities ."
+Deathcurse Ogre,3,3,{5}{B},Creature - Ogre Warrior,"When Deathcurse Ogre dies , each player loses 3 life ."
+General's Kabuto,,,{4},Artifact - Equipment,Equipped creature has shroud . < i > (It can't be the target of spells or abilities . ) < /i > $Prevent all combat damage that would be dealt to equipped creature . $Equip { 2 } < i > ({2 }: Attach to target creature you control . Equip only as a sorcery . ) < /i >
+Hinder,,,{1}{U}{U},Instant,"Counter target spell . If that spell is countered this way , put that card on the top or bottom of its owner's library instead of into that player's graveyard ."
+Innocence Kami,3,2,{3}{W}{W},Creature - Spirit,"{ W } , { tap }: Tap target creature . $Whenever you cast a Spirit or Arcane spell , untap Innocence Kami ."
+Kashi-Tribe Warriors,4,2,{3}{G}{G},Creature - Snake Warrior,"Whenever Kashi-Tribe Warriors deals combat damage to a creature , tap that creature and it doesn't untap during its controller's next untap step ."
+Lantern Kami,1,1,{W},Creature - Spirit,Flying
+Myojin of Night's Reach,2,5,{5}{B}{B}{B},Legendary Creature - Spirit,Myojin of Night's Reach enters the battlefield with a divinity counter on it if you cast it from your hand . $Myojin of Night's Reach is indestructible as long as it has a divinity counter on it . $Remove a divinity counter from Myojin of Night's Reach : Each opponent discards his or her hand .
+Ore Gorger,1,3,{3}{R}{R},Creature - Spirit,"Whenever you cast a Spirit or Arcane spell , you may destroy target nonbasic land ."
+Reito Lantern,,,{2},Artifact,{ 3 }: Put target card from a graveyard on the bottom of its owner's library .
+Shimatsu the Bloodcloaked,0,0,{3}{R},Legendary Creature - Demon Spirit,"As Shimatsu the Bloodcloaked enters the battlefield , sacrifice any number of permanents . Shimatsu enters the battlefield with that many +1/+1 counters on it ."
+Strange Inversion,,,{2}{R},Instant - Arcane,"Switch target creature's power and toughness until end of turn . $Splice onto Arcane { 1}{R } < i > (As you cast an Arcane spell , you may reveal this card from your hand and pay its splice cost . If you do , add this card's effects to that spell . ) < /i >"
+Unnatural Speed,,,{R},Instant - Arcane,Target creature gains haste until end of turn .
+Adarkar Windform,3,3,{4}{U},Snow Creature - Illusion,Flying${1}{snow }: Target creature loses flying until end of turn . < i > ({snow } can be paid with one mana from a snow permanent . ) < /i >
+Diamond Faerie,3,3,{2}{G}{W}{U},Snow Creature - Faerie,Flying${1}{snow }: Snow creatures you control get +1/+1 until end of turn . < i > ({snow } can be paid with one mana from a snow permanent . ) < /i >
+Karplusan Wolverine,1,1,{R},Snow Creature - Wolverine Beast,"Whenever Karplusan Wolverine becomes blocked , you may have it deal 1 damage to target creature or player ."
+Phyrexian Snowcrusher,5,6,{6},Snow Artifact Creature - Juggernaut,Phyrexian Snowcrusher attacks each turn if able . ${1}{snow }: Phyrexian Snowcrusher gets +1/+0 until end of turn . < i > ({snow } can be paid with one mana from a snow permanent . ) < /i >
+Sunscour,,,{5}{W}{W},Sorcery,You may exile two white cards from your hand rather than pay Sunscour's mana cost . $Destroy all creatures .
+"Animar, Soul of Elements",1,1,{U}{R}{G},Legendary Creature - Elemental,"Protection from white and from black$Whenever you cast a creature spell , put a +1/+1 counter on Animar , Soul of Elements . $Creature spells you cast cost { 1 } less to cast for each +1/+1 counter on Animar ."
+Duergar Hedge-Mage,2,2,{2}{RW},Creature - Dwarf Shaman,"When Duergar Hedge-Mage enters the battlefield , if you control two or more Mountains , you may destroy target artifact . $When Duergar Hedge-Mage enters the battlefield , if you control two or more Plains , you may destroy target enchantment ."
+Minds Aglow,,,{U},Sorcery,"Join forces - Starting with you , each player may pay any amount of mana . Each player draws X cards , where X is the total amount of mana paid this way ."
+Spitebellows,1,6,{5}{R},Creature - Elemental,"When Spitebellows leaves the battlefield , it deals 6 damage to target creature . $Evoke { 1}{R}{R } < i > (You may cast this spell for its evoke cost . If you do , it's sacrificed when it enters the battlefield . ) < /i >"
+Vulturous Zombie,3,3,{3}{B}{G},Creature - Plant Zombie,"Flying$Whenever a card is put into an opponent's graveyard from anywhere , put a +1/+1 counter on Vulturous Zombie ."
+Curse of Inertia,,,{2}{U},Enchantment - Aura Curse,"Enchant player$Whenever a player attacks enchanted player with one or more creatures , that attacking player may tap or untap target permanent of his or her choice ."
+"Gahiji, Honored One",4,4,{2}{R}{G}{W},Legendary Creature - Beast,"Whenever a creature attacks one of your opponents or a planeswalker an opponent controls , that creature gets +2/+0 until end of turn ."
+Mosswort Bridge,,,,Land,"Hideaway < i > (This land enters the battlefield tapped . When it does , look at the top four cards of your library , exile one face down , then put the rest on the bottom of your library . ) < /i > ${tap }: Add { G } to your mana pool . ${G } , { tap }: You may play the exiled card without paying its mana cost if creatures you control have total power 10 or greater ."
+Rubinia Soulsinger,3,2,{2}{G}{W}{U},Legendary Creature - Faerie,You may choose not to untap Rubinia Soulsinger during your untap step . ${tap }: Gain control of target creature for as long as you control Rubinia and Rubinia remains tapped .
+Tempt with Discovery,,,{3}{G},Sorcery,"Tempting offer - Search your library for a land card and put it onto the battlefield . Each opponent may search his or her library for a land card and put it onto the battlefield . For each opponent who searches a library this way , search your library for a land card and put it onto the battlefield . Then each player who searched a library this way shuffles it ."
+Angelic Field Marshal,3,3,{2}{W}{W},Creature - Angel,"Flying$Lieutenant - As long as you control your commander , Angelic Field Marshal gets +2/+2 and creatures you control have vigilance ."
+Dormant Volcano,,,,Land,"Dormant Volcano enters the battlefield tapped . $When Dormant Volcano enters the battlefield , sacrifice it unless you return an untapped Mountain you control to its owner's hand . ${tap }: Add { C}{R } to your mana pool ."
+Ixidron,*,*,{3}{U}{U},Creature - Illusion,"As Ixidron enters the battlefield , turn all other nontoken creatures face down . < i>(They're 2/2 creatures . )</i>$Ixidron's power and toughness are each equal to the number of face-down creatures on the battlefield ."
+Riptide Survivor,1,2,{2}{U},Creature - Human Wizard,"Morph { 1}{U}{U } < i > (You may cast this card face down as a 2/2 creature for { 3 } . Turn it face up any time for its morph cost . ) < /i > $When Riptide Survivor is turned face up , discard two cards , then draw three cards ."
+Whirlwind,,,{2}{G}{G},Sorcery,Destroy all creatures with flying .
+Corpse Augur,2,4,{3}{B},Creature - Zombie Wizard,"When Corpse Augur dies , you draw X cards and you lose X life , where X is the number of creature cards in target player's graveyard ."
+Magus of the Wheel,3,3,{2}{R},Creature - Human Wizard,"{ 1}{R } , { tap } , Sacrifice Magus of the Wheel : Each player discards his or her hand , then draws seven cards ."
+Thought Vessel,,,{2},Artifact,You have no maximum hand size . ${tap }: Add { C } to your mana pool .
+Charnelhoard Wurm,6,6,{4}{B}{R}{G},Creature - Wurm,"Trample$Whenever Charnelhoard Wurm deals damage to an opponent , you may return target card from your graveyard to your hand ."
+Ethersworn Adjudicator,4,4,{4}{U},Artifact Creature - Vedalken Knight,"Flying${1}{W}{B } , { tap }: Destroy target creature or enchantment . ${2}{U }: Untap Ethersworn Adjudicator ."
+Hellspark Elemental,1,3,{1}{R},Creature - Elemental,"Trample , haste$At the beginning of the end step , sacrifice Hellspark Elemental . $Unearth { 1}{R } < i > ({1}{R }: Return this card from your graveyard to the battlefield . It gains haste . Exile it at the beginning of the next end step or if it would leave the battlefield . Unearth only as a sorcery . ) < /i >"
+Meglonoth,6,6,{3}{R}{G}{W},Creature - Beast,"Vigilance , trample$Whenever Meglonoth blocks a creature , Meglonoth deals damage to that creature's controller equal to Meglonoth's power ."
+Rhox Bodyguard,3,2,{3}{G}{W},Creature - Rhino Monk Soldier,"Exalted < i > (Whenever a creature you control attacks alone , that creature gets +1/+1 until end of turn . ) < /i > $When Rhox Bodyguard enters the battlefield , you gain 3 life ."
+Spore Burst,,,{3}{G},Sorcery,Domain - Put a 1/1 green Saproling creature token onto the battlefield for each basic land type among lands you control .
+Wandering Goblins,3,0,{2}{R},Creature - Goblin Warrior,Domain - { 3 }: Wandering Goblins gets +1/+0 until end of turn for each basic land type among lands you control .
+Grenzo's Cutthroat,1,1,{1}{R},Creature - Goblin Rogue,"First strike$Dethrone < i > (Whenever this creature attacks the player with the most life or tied for most life , put a +1/+1 counter on it . ) < /i >"
+Tyrant's Choice,,,{1}{B},Sorcery,"Will of the council - Starting with you , each player votes for death or torture . If death gets more votes , each opponent sacrifices a creature . If torture gets more votes or the vote is tied , each opponent loses 4 life ."
+Burden of Guilt,,,{W},Enchantment - Aura,Enchant creature${1 }: Tap enchanted creature .
+Diregraf Captain,2,2,{1}{U}{B},Creature - Zombie Soldier,"Deathtouch$Other Zombie creatures you control get +1/+1 . $Whenever another Zombie you control dies , target opponent loses 1 life ."
+Gavony Ironwright,4,1,{2}{W},Creature - Human Soldier,"Fateful hour - As long as you have 5 or less life , other creatures you control get +1/+4 ."
+Hellrider,3,3,{2}{R}{R},Creature - Devil,"Haste$Whenever a creature you control attacks , Hellrider deals 1 damage to defending player ."
+Lost in the Woods,,,{3}{G}{G},Enchantment,"Whenever a creature attacks you or a planeswalker you control , reveal the top card of your library . If it's a Forest card , remove that creature from combat . Then put the revealed card on the bottom of your library ."
+Ray of Revelation,,,{1}{W},Instant,Destroy target enchantment . $Flashback { G } < i > (You may cast this card from your graveyard for its flashback cost . Then exile it . ) < /i >
+"Sorin, Lord of Innistrad",,,{2}{W}{B},Planeswalker - Sorin,"+1 : Put a 1/1 black Vampire creature token with lifelink onto the battlefield . $-2 : You get an emblem with "" Creatures you control get +1/+0 . "" $-6 : Destroy up to three target creatures and/or other planeswalkers . Return each card put into a graveyard this way to the battlefield under your control ."
+Vault of the Archangel,,,,Land,"{ tap }: Add { C } to your mana pool . ${2}{W}{B } , { tap }: Creatures you control gain deathtouch and lifelink until end of turn ."
+Arcbound Ravager,0,0,{2},Artifact Creature - Beast,"Sacrifice an artifact : Put a +1/+1 counter on Arcbound Ravager . $Modular 1 < i > (This enters the battlefield with a +1/+1 counter on it . When it dies , you may put its +1/+1 counters on target artifact creature . ) < /i >"
+Eater of Days,8,9,{4},Artifact Creature - Leviathan,"Flying , trample$When Eater of Days enters the battlefield , you skip your next two turns ."
+Leonin Bola,,,{1},Artifact - Equipment,"Equipped creature has "" { tap } , Unattach Leonin Bola : Tap target creature . "" $Equip { 1 } < i > ({1 }: Attach to target creature you control . Equip only as a sorcery . This card enters the battlefield unattached and stays on the battlefield if the creature leaves . ) < /i >"
+Pulse of the Grid,,,{1}{U}{U},Instant,"Draw two cards , then discard a card . Then if an opponent has more cards in hand than you , return Pulse of the Grid to its owner's hand ."
+Sword of Fire and Ice,,,{3},Artifact - Equipment,"Equipped creature gets +2/+2 and has protection from red and from blue . $Whenever equipped creature deals combat damage to a player , Sword of Fire and Ice deals 2 damage to target creature or player and you draw a card . $Equip { 2 }"
+Avatar of Discord,3,5,{BR}{BR}{BR},Creature - Avatar,"< i > ({BR } can be paid with either { B } or { R } . ) < /i > $Flying$When Avatar of Discord enters the battlefield , sacrifice it unless you discard two cards ."
+Demonfire,,,{X}{R},Sorcery,"Demonfire deals X damage to target creature or player . If a creature dealt damage this way would die this turn , exile it instead . $Hellbent - If you have no cards in hand , Demonfire can't be countered by spells or abilities and the damage can't be prevented ."
+Indrik Stomphowler,4,4,{4}{G},Creature - Beast,"When Indrik Stomphowler enters the battlefield , destroy target artifact or enchantment ."
+Plaxcaster Frogling,0,0,{1}{G}{U},Creature - Frog Mutant,"Graft 3 < i > (This creature enters the battlefield with three +1/+1 counters on it . Whenever another creature enters the battlefield , you may move a +1/+1 counter from this creature onto it . ) < /i > ${2 }: Target creature with a +1/+1 counter on it gains shroud until end of turn . < i > (It can't be the target of spells or abilities . ) < /i >"
+Seal of Doom,,,{2}{B},Enchantment,Sacrifice Seal of Doom : Destroy target nonblack creature . It can't be regenerated .
+Twinstrike,,,{3}{B}{R},Instant,Twinstrike deals 2 damage to each of two target creatures . $Hellbent - Destroy those creatures instead if you have no cards in hand .
+Armored Wolf-Rider,6,4,{3}{G}{W},Creature - Elf Knight,
+Deadbridge Chant,,,{4}{B}{G},Enchantment,"When Deadbridge Chant enters the battlefield , put the top ten cards of your library into your graveyard . $At the beginning of your upkeep , choose a card at random in your graveyard . If it's a creature card , put it onto the battlefield . Otherwise , put it into your hand ."
+Izzet Cluestone,,,{3},Artifact,"{ tap }: Add { U } or { R } to your mana pool . ${U}{R } , { tap } , Sacrifice Izzet Cluestone : Draw a card ."
+Morgue Burst,,,{4}{B}{R},Sorcery,Return target creature card from your graveyard to your hand . Morgue Burst deals damage to target creature or player equal to the power of the card returned this way .
+Render Silent,,,{W}{U}{U},Instant,Counter target spell . Its controller can't cast spells this turn .
+Skylasher,2,2,{1}{G},Creature - Insect,"Flash$Skylasher can't be countered . $Reach , protection from blue"
+Warped Physique,,,{U}{B},Instant,"Target creature gets +X/-X until end of turn , where X is the number of cards in your hand ."
+Atarka Monument,,,{3},Artifact,{ T }: Add { R } or { G } to your mana pool . ${4}{R}{G }: Atarka Monument becomes a 4/4 red and green Dragon artifact creature with flying until end of turn .
+Commune with Lava,,,{X}{R}{R},Instant,"Exile the top X cards of your library . Until the end of your next turn , you may play those cards ."
+Dragonlord Atarka,8,8,{5}{R}{G},Legendary Creature - Elder Dragon,"Flying , trample$When Dragonlord Atarka enters the battlefield , it deals 5 damage divided as you choose among any number of target creatures and/or planeswalkers your opponents control ."
+Encase in Ice,,,{1}{U},Enchantment - Aura,"Flash$Enchant red or green creature$When Encase in Ice enters the battlefield , tap enchanted creature . $Enchanted creature doesn't untap during its controller's untap step ."
+Hand of Silumgar,1,2,{1}{B},Creature - Human Warrior,Deathtouch < i > (Any amount of damage this deals to a creature is enough to destroy it . ) < /i >
+Learn from the Past,,,{3}{U},Instant,Target player shuffles his or her graveyard into his or her library$Draw a card
+Ojutai Monument,,,{3},Artifact,{ T }: Add { W } or { U } to your mana pool . ${4}{W}{U }: Ojutai Monument becomes a 4/4 white and blue Dragon artifact creature with flying until end of turn .
+Resupply,,,{5}{W},Instant,You gain 6 life . $Draw a card .
+Seismic Rupture,,,{2}{R},Sorcery,Seismic Rupture deals 2 damage to each creature without flying .
+Silumgar Spell-Eater,3,2,{2}{U},Creature - Naga Wizard,"Megamorph { 4}{U } < i > (You may cast this card face down as a 2/2 creature for { 3 } . Turn it face up any time for its megamorph cost and put a +1/+1 counter on it . ) < /i > $When Silumgar Spell-Eater is turned face up , counter target spell unless its controller pays { 3 } ."
+Tread Upon,,,{1}{G},Instant,Target creature gets +2/+2 and gains trample until end of turn .
+Distorting Lens,,,{2},Artifact,{ tap }: Target permanent becomes the color of your choice until end of turn .
+Blinding Beam,,,{2}{W},Instant,Choose one - Tap two target creatures ; or creatures don't untap during target player's next untap step . $Entwine { 1 } < i > (Choose both if you pay the entwine cost . ) < /i >
+Swell of Courage,,,{3}{W}{W},Instant,"Creatures you control get +2/+2 until end of turn . $Reinforce X-{X}{W}{W } < i > ({X}{W}{W } , Discard this card : Put X +1/+1 counters on target creature . ) < /i >"
+"Ashling, the Extinguisher",4,4,{2}{B}{B},Legendary Creature - Elemental Shaman,"Whenever Ashling , the Extinguisher deals combat damage to a player , choose target creature that player controls . He or she sacrifices that creature ."
+Crackleburr,2,2,{1}{UR}{UR},Creature - Elemental,"{ UR}{UR } , { tap } , Tap two untapped red creatures you control : Crackleburr deals 3 damage to target creature or player . ${UR}{UR } , { untap } , Untap two tapped blue creatures you control : Return target creature to its owner's hand . < i > ({untap } is the untap symbol . ) < /i >"
+Evershrike,2,2,{3}{WB}{WB},Creature - Elemental Spirit,"Flying$Evershrike gets +2/+2 for each Aura attached to it . ${X}{WB}{WB }: Return Evershrike from your graveyard to the battlefield . You may put an Aura card with converted mana cost X or less from your hand onto the battlefield attached to it . If you don't , exile Evershrike ."
+Hateflayer,5,5,{5}{R}{R},Creature - Elemental,"Wither < i > (This deals damage to creatures in the form of -1/-1 counters . ) < /i > ${2}{R } , { untap }: Hateflayer deals damage equal to its power to target creature or player . < i > ({untap } is the untap symbol . ) < /i >"
+Marshdrinker Giant,3,4,{3}{G}{G},Creature - Giant Warrior,"When Marshdrinker Giant enters the battlefield , destroy target Island or Swamp an opponent controls ."
+Oona's Grace,,,{2}{U},Instant,Target player draws a card . $Retrace < i > (You may cast this card from your graveyard by discarding a land card in addition to paying its other costs . ) < /i >
+Sapling of Colfenor,5,2,{3}{BG}{BG},Legendary Creature - Treefolk Shaman,"Sapling of Colfenor is indestructible . $Whenever Sapling of Colfenor attacks , reveal the top card of your library . If it's a creature card , you gain life equal to that card's toughness , lose life equal to its power , then put it into your hand ."
+Stillmoon Cavalier,1,2,{1}{WB}{WB},Creature - Zombie Knight,Protection from white and from black${WB }: Stillmoon Cavalier gains flying until end of turn . ${WB }: Stillmoon Cavalier gains first strike until end of turn . ${WB}{WB }: Stillmoon Cavalier gets +1/+0 until end of turn .
+Ward of Bones,,,{6},Artifact,"Each opponent who controls more creatures than you can't play creature cards . The same is true for artifacts , enchantments , and lands ."
+Equilibrium,,,{1}{U}{U},Enchantment,"Whenever you cast a creature spell , you may pay { 1 } . If you do , return target creature to its owner's hand ."
+Onslaught,,,{R},Enchantment,"Whenever you cast a creature spell , tap target creature ."
+Sphere of Resistance,,,{2},Artifact,Spells cost { 1 } more to cast .
+Dwarven Lieutenant,2,1,{R}{R},Creature - Dwarf Soldier,{ 1}{R }: Target Dwarf creature gets +1/+0 until end of turn .
+Icatian Lieutenant,2,1,{W}{W},Creature - Human Soldier,{ 1}{W }: Target Soldier creature gets +1/+0 until end of turn .
+Abzan Advantage,,,{1}{W},Instant,Target player sacrifices an enchantment . Bolster 1 . < i > (Choose a creature with the least toughness among creatures you control and put a +1/+1 counter on it . ) < /i >
+Battlefront Krushok,4,3,{4}{G},Creature - Beast,Battlefront Krushok can't be blocked by more than one creature . $Each creature you control with a +1/+1 counter on it can't be blocked by more than one creature .
+"Dromoka, the Eternal",5,5,{3}{G}{W},Legendary Creature - Dragon,"Flying$Whenever a Dragon you control attacks , bolster 2 . < i > (Choose a creature with the least toughness among creatures you control and put two +1/+1 counters on it . ) < /i >"
+Grave Strength,,,{1}{B},Sorcery,"Choose target creature . Put the top three cards of your library into your graveyard , then put a +1/+1 counter on that creature for each creature card in your graveyard ."
+Map the Wastes,,,{2}{G},Sorcery,"Search your library for a basic land card , put it onto the battlefield tapped , then shuffle your library . Bolster 1 . < i > (Choose a creature with the least toughness among creatures you control and put a +1/+1 counter on it . ) < /i >"
+Pilgrim of the Fires,4,6,{7},Artifact Creature - Golem,"First strike , trample"
+Shaman of the Great Hunt,2,4,{3}{R},Creature - Orc Shaman,"Haste$Whenever a creature you control deals combat damage to a player , put a +1/+1 counter on it . $Ferocious - { 2}{GU}{GU }: Draw a card for each creature you control with power 4 or greater ."
+Temur Runemark,,,{2}{G},Enchantment - Aura,Enchant creature$Enchanted creature gets +2/+2 . $Enchanted creature has trample as long as you control a blue or red permanent .
+Yasova Dragonclaw,2,4,{2}{G},Legendary Creature - Human Warrior,"Trample$At the beginning of combat on your turn , you may pay { 1}{UR}{UR } . If you do , gain control of target creature an opponent controls with power less than Yasova Dragonclaw's power until end of turn , untap that creature , and it gains haste until end of turn ."
+Bringer of the Green Dawn,5,5,{7}{G}{G},Creature - Bringer,"You may pay { W}{U}{B}{R}{G } rather than pay Bringer of the Green Dawn's mana cost . $Trample$At the beginning of your upkeep , you may put a 3/3 green Beast creature token onto the battlefield ."
+Eternal Witness,1,2,{1}{G}{G},Creature - Human Shaman,"When Eternal Witness enters the battlefield , you may return target card from your graveyard to your hand ."
+Horned Helm,,,{2},Artifact - Equipment,Equipped creature gets +1/+1 and has trample . ${G}{G }: Attach Horned Helm to target creature you control . $Equip { 1 } < i > ({1 }: Attach to target creature you control . Equip only as a sorcery . ) < /i >
+Myr Quadropod,4,1,{4},Artifact Creature - Myr,{ 3 }: Switch Myr Quadropod's power and toughness until end of turn .
+Serum Visions,,,{U},Sorcery,"Draw a card . $Scry 2 . < i > (To scry 2 , look at the top two cards of your library , then put any number of them on the bottom of your library and the rest on top in any order . ) < /i >"
+Tyrranax,4,5,{4}{G}{G},Creature - Beast,{ 1}{G }: Tyrranax gets -1/+1 until end of turn .
+Blight,,,{B}{B},Enchantment - Aura,"Enchant land$When enchanted land becomes tapped , destroy it ."
+Feroz's Ban,,,{6},Artifact,Creature spells cost { 2 } more to cast .
+Living Artifact,,,{G},Enchantment - Aura,"Enchant artifact$Whenever you're dealt damage , put that many vitality counters on Living Artifact . $At the beginning of your upkeep , you may remove a vitality counter from Living Artifact . If you do , you gain 1 life ."
+Repentant Blacksmith,2,1,{1}{W},Creature - Human,Protection from red
+War Mammoth,3,3,{3}{G},Creature - Elephant,Trample
+Immolation,,,{R},Enchantment - Aura,Enchant creature$Enchanted creature gets +2/-2 .
+Arcanum Wings,,,{1}{U},Enchantment - Aura,Enchant creature$Enchanted creature has flying . $Aura swap { 2}{U } < i > ({2}{U }: Exchange this Aura with an Aura card in your hand . ) < /i >
+Cyclical Evolution,,,{3}{G}{G},Sorcery,"Target creature gets +3/+3 until end of turn . Exile Cyclical Evolution with three time counters on it . $Suspend 3-{2}{G } < i > (Rather than cast this card from your hand , you may pay { 2}{G } and exile it with three time counters on it . At the beginning of your upkeep , remove a time counter . When the last is removed , cast it without paying its mana cost . ) < /i >"
+Henchfiend of Ukor,2,3,{3}{R},Creature - Ogre,"Haste$Echo { 1}{B } < i > (At the beginning of your upkeep , if this came under your control since the beginning of your last upkeep , sacrifice this permanent unless you pay its echo cost . ) < /i > ${BR }: Henchfiend of Ukor gets +1/+0 until end of turn ."
+Magus of the Moat,3,0,{2}{W}{W},Creature - Human Wizard,Creatures without flying can't attack .
+Saltskitter,4,3,{3}{W},Creature - Wurm,"Whenever another creature enters the battlefield , exile Saltskitter . Return Saltskitter to the battlefield under its owner's control at the beginning of the next end step ."
+Thornweald Archer,1,2,{1}{G},Creature - Elf Archer,Reach < i > (This creature can block creatures with flying . ) < /i > $Deathtouch < i > (Any amount of damage this deals to a creature is enough to destroy it . ) < /i >
+Angelic Edict,,,{4}{W},Sorcery,Exile target creature or enchantment .
+Boros Keyrune,,,{3},Artifact,{ tap }: Add { R } or { W } to your mana pool . ${R}{W }: Boros Keyrune becomes a 1/1 red and white Soldier artifact creature with double strike until end of turn . < i > (It deals both first-strike and regular combat damage . ) < /i >
+Deathpact Angel,5,5,{3}{W}{B}{B},Creature - Angel,"Flying$When Deathpact Angel dies , put a 1/1 white and black Cleric creature token onto the battlefield . It has "" { 3}{W}{B}{B } , { tap } , Sacrifice this creature : Return a card named Deathpact Angel from your graveyard to the battlefield . """
+Experiment One,1,1,{G},Creature - Human Ooze,"Evolve < i > (Whenever a creature enters the battlefield under your control , if that creature has greater power or toughness than this creature , put a +1/+1 counter on this creature . ) < /i > $Remove two +1/+1 counters from Experiment One : Regenerate Experiment One ."
+Grisly Spectacle,,,{2}{B}{B},Instant,Destroy target nonartifact creature . Its controller puts a number of cards equal to that creature's power from the top of his or her library into his or her graveyard .
+Illness in the Ranks,,,{B},Enchantment,Creature tokens get -1/-1 .
+Master Biomancer,4,2,{2}{G}{U},Creature - Elf Wizard,Each other creature you control enters the battlefield with a number of additional +1/+1 counters on it equal to Master Biomancer's power and as a Mutant in addition to its other types .
+One Thousand Lashes,,,{2}{W}{B},Enchantment - Aura,"Enchant creature$Enchanted creature can't attack or block , and its activated abilities can't be activated . $At the beginning of the upkeep of enchanted creature's controller , that player loses 1 life ."
+Rubblehulk,*,*,{4}{R}{G},Creature - Elemental,"Rubblehulk's power and toughness are each equal to the number of lands you control . $Bloodrush - { 1}{R}{G } , Discard Rubblehulk : Target attacking creature gets +X/+X until end of turn , where X is the number of lands you control ."
+Simic Manipulator,1,0,{1}{U}{U},Creature - Mutant Wizard,"Evolve < i > (Whenever a creature enters the battlefield under your control , if that creature has greater power or toughness than this creature , put a +1/+1 counter on this creature . ) < /i > ${tap } , Remove one or more +1/+1 counters from Simic Manipulator : Gain control of target creature with power less than or equal to the number of +1/+1 counters removed this way ."
+Thespian's Stage,,,,Land,"{ tap }: Add { C } to your mana pool . ${2 } , { tap }: Thespian's Stage becomes a copy of target land and gains this ability ."
+Way of the Thief,,,{3}{U},Enchantment - Aura,Enchant creature$Enchanted creature gets +2/+2 . $Enchanted creature is unblockable as long as you control a Gate .
+Cremate,,,{B},Instant,Exile target card from a graveyard . $Draw a card .
+Gigadrowse,,,{U},Instant,"Replicate { U } < i > (When you cast this spell , copy it for each time you paid its replicate cost . You may choose new targets for the copies . ) < /i > $Tap target permanent ."
+Leyline of Lifeforce,,,{2}{G}{G},Enchantment,"If Leyline of Lifeforce is in your opening hand , you may begin the game with it on the battlefield . $Creature spells can't be countered ."
+Poisonbelly Ogre,3,3,{4}{B},Creature - Ogre Warrior,"Whenever another creature enters the battlefield , its controller loses 1 life ."
+Skyrider Trainee,3,3,{4}{W},Creature - Human Soldier,Skyrider Trainee has flying as long as it's enchanted .
+Vedalken Plotter,1,1,{2}{U},Creature - Vedalken Wizard,"When Vedalken Plotter enters the battlefield , exchange control of target land you control and target land an opponent controls ."
+Aliban's Tower,,,{1}{R},Instant,Target blocking creature gets +3/+1 until end of turn .
+Eron the Relentless,2,5,{3}{R}{R},Legendary Creature - Human Rogue,Haste${R}{R}{R }: Regenerate Eron the Relentless .
+Root Spider,2,2,{3}{G},Creature - Spider,"Whenever Root Spider blocks , it gets +1/+0 and gains first strike until end of turn ."
+Balduvian Bears,2,2,{1}{G},Creature - Bear,
+Elder Druid,2,2,{3}{G},Creature - Elf Cleric Druid,"{ 3}{G } , { tap }: You may tap or untap target artifact , creature , or land ."
+Hecatomb,,,{1}{B}{B},Enchantment,"When Hecatomb enters the battlefield , sacrifice Hecatomb unless you sacrifice four creatures . $Tap an untapped Swamp you control : Hecatomb deals 1 damage to target creature or player ."
+Lhurgoyf,1+*,*,{2}{G}{G},Creature - Lhurgoyf,Lhurgoyf's power is equal to the number of creature cards in all graveyards and its toughness is equal to that number plus 1 .
+Pyknite,1,1,{2}{G},Creature - Ouphe,"When Pyknite enters the battlefield , draw a card at the beginning of the next turn's upkeep ."
+Songs of the Damned,,,{B},Instant,Add { B } to your mana pool for each creature card in your graveyard .
+Whiteout,,,{1}{G},Instant,All creatures lose flying until end of turn . $Sacrifice a snow land : Return Whiteout from your graveyard to your hand .
+Ashmouth Hound,1,2,{1}{R},Creature - Elemental Hound,"Whenever Ashmouth Hound blocks or becomes blocked by a creature , Ashmouth Hound deals 1 damage to that creature ."
+Cackling Counterpart,,,{1}{U}{U},Instant,Put a token onto the battlefield that's a copy of target creature you control . $Flashback { 5}{U}{U } < i > (You may cast this card from your graveyard for its flashback cost . Then exile it . ) < /i >
+Curse of the Nightly Hunt,,,{2}{R},Enchantment - Aura Curse,Enchant player$Creatures enchanted player controls attack each turn if able .
+Endless Ranks of the Dead,,,{2}{B}{B},Enchantment,"At the beginning of your upkeep , put X 2/2 black Zombie creature tokens onto the battlefield , where X is half the number of Zombies you control , rounded down ."
+Gavony Township,,,,Land,"{ tap }: Add { C } to your mana pool . ${2}{G}{W } , { tap }: Put a +1/+1 counter on each creature you control ."
+Hanweir Watchkeep,5,1,{2}{R},Creature - Human Warrior Werewolf,"Defender$At the beginning of each upkeep , if no spells were cast last turn , transform Hanweir Watchkeep ."
+Kessig Wolf,1,3,{2}{R},Creature - Wolf,{ 1}{R }: Kessig Wolf gains first strike until end of turn .
+Maw of the Mire,,,{4}{B},Sorcery,Destroy target land . You gain 4 life .
+Nightbird's Clutches,,,{1}{R},Sorcery,Up to two target creatures can't block this turn . $Flashback { 3}{R } < i > (You may cast this card from your graveyard for its flashback cost . Then exile it . ) < /i >
+Reckless Waif,1,1,{R},Creature - Human Rogue Werewolf,"At the beginning of each upkeep , if no spells were cast last turn , transform Reckless Waif ."
+Skirsdag Cultist,2,2,{2}{R}{R},Creature - Human Shaman,"{ R } , { tap } , Sacrifice a creature : Skirsdag Cultist deals 2 damage to target creature or player ."
+Sulfur Falls,,,,Land,Sulfur Falls enters the battlefield tapped unless you control an Island or a Mountain . ${tap }: Add { U } or { R } to your mana pool .
+Unruly Mob,1,1,{1}{W},Creature - Human,"Whenever another creature you control dies , put a +1/+1 counter on Unruly Mob ."
+Alloy Golem,4,4,{6},Artifact Creature - Golem,"As Alloy Golem enters the battlefield , choose a color . $Alloy Golem is the chosen color . < i>(It's still an artifact . ) < /i >"
+Blurred Mongoose,1,2,{1}{G},Creature - Mongoose,Blurred Mongoose can't be countered . $Shroud < i > (This permanent can't be the target of spells or abilities . ) < /i >
+Devouring Strossus,9,9,{5}{B}{B}{B},Creature - Horror,"Flying , trample$At the beginning of your upkeep , sacrifice a creature . $Sacrifice a creature : Regenerate Devouring Strossus ."
+Geothermal Crevice,,,,Land,"Geothermal Crevice enters the battlefield tapped . ${tap }: Add { R } to your mana pool . ${tap } , Sacrifice Geothermal Crevice : Add { B}{G } to your mana pool ."
+Kavu Titan,2,2,{1}{G},Creature - Kavu,"Kicker { 2}{G } < i > (You may pay an additional { 2}{G } as you cast this spell . ) < /i > $If Kavu Titan was kicked , it enters the battlefield with three +1/+1 counters on it and with trample ."
+Opt,,,{U},Instant,Look at the top card of your library . You may put that card on the bottom of your library . $$Draw a card .
+Raging Kavu,1,3,{1}{R}{G},Creature - Kavu,Flash$Haste
+Savage Offensive,,,{1}{R},Sorcery,"Kicker { G } < i > (You may pay an additional { G } as you cast this spell . ) < /i > $Creatures you control gain first strike until end of turn . If Savage Offensive was kicked , they get +1/+1 until end of turn ."
+Spirit of Resistance,,,{2}{W},Enchantment,"As long as you control a permanent of each color , prevent all damage that would be dealt to you ."
+Tidal Visionary,1,1,{U},Creature - Merfolk Wizard,{ tap }: Target creature becomes the color of your choice until end of turn .
+Urborg Skeleton,1,0,{B},Creature - Skeleton,"Kicker { 3 } < i > (You may pay an additional { 3 } as you cast this spell . ) < /i > ${B }: Regenerate Urborg Skeleton . $If Urborg Skeleton was kicked , it enters the battlefield with a +1/+1 counter on it ."
+Winnow,,,{1}{W},Instant,Destroy target nonland permanent if another permanent with the same name is on the battlefield . $Draw a card .
+Body Double,0,0,{4}{U},Creature - Shapeshifter,You may have Body Double enter the battlefield as a copy of any creature card in a graveyard .
+Bearer of the Heavens,10,10,{7}{R},Creature - Giant,"When Bearer of the Heavens dies , destroy all permanents at the beginning of the next end step ."
+Dictate of Erebos,,,{3}{B}{B},Enchantment,"Flash$Whenever a creature you control dies , each opponent sacrifices a creature ."
+Font of Ire,,,{1}{R},Enchantment,"{ 3}{R } , Sacrifice Font of Ire : Font of Ire deals 5 damage to target player ."
+Hypnotic Siren,1,1,{U},Enchantment Creature - Siren,"Bestow { 5}{U}{U } < i > (If you cast this card for its bestow cost , it's an Aura spell with enchant creature . It becomes a creature again if it's not attached to a creature . ) < /i > $Flying$You control enchanted creature . $Enchanted creature gets +1/+1 and has flying ."
+Nightmarish End,,,{2}{B},Instant,"Target creature gets -X/-X until end of turn , where X is the number of cards in your hand ."
+Returned Reveler,3,1,{1}{B},Creature - Zombie Satyr,"When Returned Reveler dies , each player puts the top three cards of his or her library into his or her graveyard ."
+Skyspear Cavalry,2,2,{3}{W}{W},Creature - Human Soldier,Flying$Double strike < i > (This creature deals both first-strike and regular combat damage . ) < /i >
+Triton Cavalry,4,2,{3}{U},Creature - Merfolk Soldier,"Heroic - Whenever you cast a spell that targets Triton Cavalry , you may return target enchantment to its owner's hand ."
+Browbeat,,,{2}{R},Sorcery,"Any player may have Browbeat deal 5 damage to him or her . If no one does , target player draws three cards ."
+Flash of Insight,,,{X}{1}{U},Instant,"Look at the top X cards of your library . Put one of them into your hand and the rest on the bottom of your library in any order . $Flashback-{1}{U } , Exile X blue cards from your graveyard . < i > (You may cast this card from your graveyard for its flashback cost , then exile it . You can't exile Flash of Insight to pay for its own flashback cost . ) < /i >"
+Living Wish,,,{1}{G},Sorcery,"You may choose a creature or land card you own from outside the game , reveal that card , and put it into your hand . Exile Living Wish ."
+Swelter,,,{3}{R},Sorcery,Swelter deals 2 damage to each of two target creatures .
+Ainok Bond-Kin,1,2,{1}{W},Creature - Hound Soldier,"Outlast { 1}{W } < i > ({1}{W } , { tap }: Put a +1/+1 counter on this creature . Outlast only as a sorcery . ) < /i > $Each creature you control with a +1/+1 counter on it has first strike ."
+Bloodfire Expert,1,3,{2}{R},Creature - Efreet Monk,"Prowess < i > (Whenever you cast a noncreature spell , this creature gets +1/+1 until end of turn . ) < /i >"
+Defiant Strike,,,{W},Instant,Target creature gets +1/+0 until end of turn . $Draw a card .
+Flying Crane Technique,,,{3}{U}{R}{W},Instant,Untap all creatures you control . They gain flying and double strike until end of turn .
+Icefeather Aven,2,2,{G}{U},Creature - Bird Shaman,"Flying$Morph { 1}{G}{U } < i > (You may cast this card face down as a 2/2 creature for { 3 } . Turn it face up any time for its morph cost . ) < /i > $When Icefeather Aven is turned face up , you may return another target creature to its owner's hand ."
+Lens of Clarity,,,{1},Artifact,You may look at the top card of your library and at face-down creatures you don't control . < i > (You may do this at any time . ) < /i >
+Monastery Flock,5,0,{2}{U},Creature - Bird,"Defender , flying$Morph { U } < i > (You may cast this card face down as a 2/2 creature for { 3 } . Turn it face up any time for its morph cost . ) < /i >"
+Rite of the Serpent,,,{4}{B}{B},Sorcery,"Destroy target creature . If that creature had a +1/+1 counter on it , put a 1/1 green Snake creature token onto the battlefield ."
+Secret Plans,,,{G}{U},Enchantment,"Face-down creatures you control get +0/+1 . $Whenever a permanent you control is turned face up , draw a card ."
+Summit Prowler,3,4,{2}{R}{R},Creature - Yeti,
+Trap Essence,,,{G}{U}{R},Instant,Counter target creature spell . Put two +1/+1 counters on up to one target creature .
+Winterflame,,,{1}{U}{R},Instant,Choose one or both -$ Tap target creature . $ Winterflame deals 2 damage to target creature .
+Amrou Kithkin,1,1,{W}{W},Creature - Kithkin,Amrou Kithkin can't be blocked by creatures with power 3 or greater .
+Flash Flood,,,{U},Instant,Choose one - Destroy target red permanent ; or return target Mountain to its owner's hand .
+Kobolds of Kher Keep,1,0,{0},Creature - Kobold,
+Relic Barrier,,,{2},Artifact,{ tap }: Tap target artifact .
+Transmutation,,,{1}{B},Instant,Switch target creature's power and toughness until end of turn .
+Canopy Crawler,2,2,{3}{G},Creature - Beast,"Amplify 1 < i > (As this creature enters the battlefield , put a +1/+1 counter on it for each Beast card you reveal in your hand . ) < /i > ${tap }: Target creature gets +1/+1 until end of turn for each +1/+1 counter on Canopy Crawler ."
+Glowrider,1,2,{2}{W},Creature - Human Cleric,Noncreature spells cost { 1 } more to cast .
+Nantuko Vigilante,2,3,{3}{G},Creature - Insect Druid Mutant,"Morph { 1}{G } < i > You may cast this card face downn as a 2/2 creature for { 3 } . Turn it face up any time for its morph cost . ) < /i > $When Nantuko Vigilante is turned face up , destroy target artifact or enchantment ."
+Swooping Talon,6,2,{4}{W}{W},Creature - Bird Soldier,"Flying${1 }: Swooping Talon loses flying until end of turn . $Provoke < i > (When this attacks , you may have target creature defending player controls untap and block it if able . ) < /i >"
+Berserk,,,{G},Instant,"Cast Berserk only before the combat damage step . $Target creature gains trample and gets +X/+0 until end of turn , where X is its power . At the beginning of the next end step , destroy that creature if it attacked this turn ."
+Drain Life,,,{X}{1}{B},Sorcery,"Spend only black mana on X . $Drain Life deals X damage to target creature or player . You gain life equal to the damage dealt , but not more life than the player's life total before Drain Life dealt damage or the creature's toughness ."
+Living Lands,,,{3}{G},Enchantment,All Forests are 1/1 creatures that are still lands .
+Red Elemental Blast,,,{R},Instant,Choose one - Counter target blue spell ; or destroy target blue permanent .
+Tundra,,,,Land - Plains Island,
+Ancient Amphitheater,,,,Land,"As Ancient Amphitheater enters the battlefield , you may reveal a Giant card from your hand . If you don't , Ancient Amphitheater enters the battlefield tapped . ${tap }: Add { R } or { W } to your mana pool ."
+"Brigid, Hero of Kinsbaile",3,2,{2}{W}{W},Legendary Creature - Kithkin Archer,"First strike${tap }: Brigid , Hero of Kinsbaile deals 2 damage to each attacking or blocking creature target player controls ."
+"Doran, the Siege Tower",5,0,{B}{G}{W},Legendary Creature - Treefolk Shaman,Each creature assigns combat damage equal to its toughness rather than its power .
+Final Revels,,,{4}{B},Sorcery,Choose one - All creatures get +2/+0 until end of turn ; or all creatures get -0/-2 until end of turn .
+Harpoon Sniper,2,2,{2}{W},Creature - Merfolk Archer,"{ W } , { tap }: Harpoon Sniper deals X damage to target attacking or blocking creature , where X is the number of Merfolk you control ."
+Kinsbaile Skirmisher,2,2,{1}{W},Creature - Kithkin Soldier,"When Kinsbaile Skirmisher enters the battlefield , target creature gets +1/+1 until end of turn ."
+Mudbutton Torchrunner,1,1,{2}{R},Creature - Goblin Warrior,"When Mudbutton Torchrunner dies , it deals 3 damage to target creature or player ."
+Rootgrapple,,,{4}{G},Tribal Instant - Treefolk,"Destroy target noncreature permanent . If you control a Treefolk , draw a card ."
+Streambed Aquitects,3,2,{1}{U}{U},Creature - Merfolk Scout,{ tap }: Target Merfolk creature gets +1/+1 and gains islandwalk until end of turn . ${tap }: Target land becomes an Island until end of turn .
+Vivid Marsh,,,,Land,"Vivid Marsh enters the battlefield tapped with two charge counters on it . ${tap }: Add { B } to your mana pool . ${tap } , Remove a charge counter from Vivid Marsh : Add one mana of any color to your mana pool ."
+Air Elemental,4,4,{3}{U}{U},Creature - Elemental,Flying
+Centaur Courser,3,3,{2}{G},Creature - Centaur Warrior,
+Earthquake,,,{X}{R},Sorcery,Earthquake deals X damage to each creature without flying and each player .
+Griffin Sentinel,3,1,{2}{W},Creature - Griffin,Flying$Vigilance < i > (Attacking doesn't cause this creature to tap . ) < /i >
+Kelinore Bat,1,2,{2}{B},Creature - Bat,Flying
+Negate,,,{1}{U},Instant,Counter target noncreature spell .
+Sage Owl,1,1,{1}{U},Creature - Bird,"Flying$When Sage Owl enters the battlefield , look at the top four cards of your library , then put them back in any order ."
+Tempest of Light,,,{2}{W},Instant,Destroy all enchantments .
+Wind Drake,2,2,{2}{U},Creature - Drake,Flying
+Blood Tithe,,,{3}{B},Sorcery,Each opponent loses 3 life . You gain life equal to the life lost this way .
+Duskdale Wurm,7,7,{5}{G}{G},Creature - Wurm,"Trample < i > (If this creature would assign enough damage to its blockers to destroy them , you may have it assign the rest of its damage to defending player or planeswalker . ) < /i >"
+Hunters' Feast,,,{3}{G},Sorcery,Any number of target players each gain 6 life .
+Merfolk Spy,1,1,{U},Creature - Merfolk Rogue,"Islandwalk < i > (This creature is unblockable as long as defending player controls an Island . ) < /i > $Whenever Merfolk Spy deals combat damage to a player , that player reveals a card at random from his or her hand ."
+Reverberate,,,{R}{R},Instant,Copy target instant or sorcery spell . You may choose new targets for the copy .
+Triskelion,1,1,{6},Artifact Creature - Construct,Triskelion enters the battlefield with three +1/+1 counters on it . $Remove a +1/+1 counter from Triskelion : Triskelion deals 1 damage to target creature or player .
+Armored Warhorse,3,2,{W}{W},Creature - Horse,
+Crumbling Colossus,4,7,{5},Artifact Creature - Golem,"Trample < i > (If this creature would assign enough damage to its blockers to destroy them , you may have it assign the rest of its damage to defending player or planeswalker . ) < /i > $When Crumbling Colossus attacks , sacrifice it at end of combat ."
+Goblin Fireslinger,1,1,{R},Creature - Goblin Warrior,{ tap }: Goblin Fireslinger deals 1 damage to target player .
+Merfolk Looter,1,1,{1}{U},Creature - Merfolk Rogue,"{ tap }: Draw a card , then discard a card ."
+Skywinder Drake,1,3,{2}{U},Creature - Drake,Flying$Skywinder Drake can block only creatures with flying .
+Titanic Growth,,,{1}{G},Instant,Target creature gets +4/+4 until end of turn .
+Attended Knight,2,2,{2}{W},Creature - Human Knight,"First strike < i > (This creature deals combat damage before creatures without first strike . ) < /i > $When Attended Knight enters the battlefield , put a 1/1 white Soldier creature token onto the battlefield ."
+Disciple of Bolas,1,2,{3}{B},Creature - Human Wizard,"When Disciple of Bolas enters the battlefield , sacrifice another creature . You gain X life and draw X cards , where X is that creature's power ."
+Guardian Lions,6,1,{4}{W},Creature - Cat,Vigilance < i > (Attacking doesn't cause this creature to tap . ) < /i >
+Mutilate,,,{2}{B}{B},Sorcery,All creatures get -1/-1 until end of turn for each Swamp you control .
+Rummaging Goblin,1,1,{2}{R},Creature - Goblin Rogue,"{ tap } , Discard a card : Draw a card ."
+Touch of the Eternal,,,{5}{W}{W},Enchantment,"At the beginning of your upkeep , count the number of permanents you control . Your life total becomes that number ."
+Angelic Accord,,,{3}{W},Enchantment,"At the beginning of each end step , if you gained 4 or more life this turn , put a 4/4 white Angel creature token with flying onto the battlefield ."
+Dark Prophecy,,,{B}{B}{B},Enchantment,"Whenever a creature you control dies , you draw a card and lose 1 life ."
+Grim Return,,,{2}{B},Instant,Choose target creature card in a graveyard that was put there from the battlefield this turn . Put that card onto the battlefield under your control .
+Mindsparker,2,3,{1}{R}{R},Creature - Elemental,"First strike$Whenever an opponent casts a white or blue instant or sorcery spell , Mindsparker deals 2 damage to that player ."
+Shadowborn Apostle,1,1,{B},Creature - Human Cleric,"A deck can have any number of cards named Shadowborn Apostle . ${B } , Sacrifice six creatures named Shadowborn Apostle : Search your library for a Demon creature and put it onto the battlefield . Then shuffle your library ."
+Vampire Warlord,2,4,{4}{B},Creature - Vampire Warrior,Sacrifice another creature : Regenerate Vampire Warlord .
+Belligerent Sliver,2,2,{2}{R},Creature - Sliver,"Sliver creatures you control have "" This creature can't be blocked except by two or more creatures . """
+Endless Obedience,,,{4}{B}{B},Sorcery,Convoke$Put target creature card from a graveyard onto the battlefield under your control .
+Hot Soup,,,{1},Artifact - Equipment,"Equipped creature can't be blocked . $Whenever equipped creature is dealt damage , destroy it . $Equip { 3 }"
+Meditation Puzzle,,,{3}{W}{W},Instant,Convoke$You gain 8 life .
+Perilous Vault,,,{4},Artifact,"{ 5 } , { T } , Exile Perilous Vault : Exile all nonland permanents ."
+Shield of the Avatar,,,{1},Artifact - Equipment,"If a source would deal damage to equipped creature , prevent X of that damage , where X is the number of creatures you control . $Equip { 2 }"
+Ulcerate,,,{B},Instant,Target creature gets -3/-3 until end of turn . You lose 3 life .
+Alhammarret's Archive,,,{5},Legendary Artifact,"If you would gain life , you gain twice that much life instead . $If you would draw a card except the first one you draw in each of your draw steps , draw two cards instead ."
+"Chandra, Roaring Flame",,,,Planeswalker - Chandra,"+1 : Chandra , Roaring Flame deals 2 damage to target player . $-2 : Chandra , Roaring Flame deals 2 damage to target creature . $-7 : Chandra , Roaring Flame deals 6 damage to each opponent . Each player dealt damage this way gets an emblem with "" At the beginning of your upkeep , this emblem deals 3 damage to you . """
+Elemental Bond,,,{2}{G},Enchantment,"Whenever a creature with power 3 or greater enters the battlefield under your control , draw a card ."
+Gideon's Phalanx,,,{5}{W}{W},Instant,"Put four 2/2 white Knight creature tokens with vigilance onto the battlefield . $ < i > Spell mastery < /i > - If there are two or more instant and/or sorcery cards in your graveyard , creatures you control gain indestructible until end of turn ."
+Infinite Obliteration,,,{1}{B}{B},Sorcery,"Name a creature card . Search target opponent's graveyard , hand , and library for any number of cards with that name and exile them . Then that player shuffles his or her library ."
+Magmatic Insight,,,{R},Sorcery,"As an additional cost to cast Magmatic Insight , discard a land card . $Draw two cards ."
+Priest of the Blood Rite,2,2,{3}{B}{B},Creature - Human Cleric,"When Priest of the Blood Rite enters the battlefield , put a 5/5 black Demon creature token with flying onto the battlefield . $At the beginning of your upkeep , you lose 2 life ."
+Sigil of Valor,,,{2},Artifact - Equipment,"Whenever equipped creature attacks alone , it gets +1/+1 until end of turn for each other creature you control . $Equip { 1 }"
+Topan Freeblade,2,2,{1}{W},Creature - Human Soldier,"Vigilance$Renown 1 < i > (When this creature deals combat damage to a player , if it isn't renowned , put a +1/+1 counter on it and it becomes renowned . ) < /i >"
+Powder Keg,,,{2},Artifact,"At the beginning of your upkeep , you may put a fuse counter on Powder Keg . ${T } , Sacrifice Powder Keg : Destroy each artifact and creature with converted mana cost equal to the number of fuse counters on Powder Keg ."
+Spectral Bears,3,3,{1}{G},Creature - Bear Spirit,"Whenever Spectral Bears attacks , if defending player controls no black nontoken permanents , it doesn't untap during your next untap step ."
+Errantry,,,{1}{R},Enchantment - Aura,Enchant creature$Enchanted creature gets +3/+0 and can only attack alone .
+Storm Spirit,3,3,{3}{G}{W}{U},Creature - Elemental Spirit,Flying${tap }: Storm Spirit deals 2 damage to target creature .
+Fire Sprites,1,1,{1}{G},Creature - Faerie,"Flying${G } , { tap }: Add { R } to your mana pool ."
+"Sun Ce, Young Conquerer",3,3,{3}{U}{U},Legendary Creature - Human Soldier,"Horsemanship < i > (This creature can't be blocked except by creatures with horsemanship . ) < /i > $When Sun Ce , Young Conquerer enters the battlefield , you may return target creature to its owner's hand ."
+Gorilla War Cry,,,{1}{R},Instant,Cast Gorilla War Cry only during combat before blockers are declared . $Creatures can't be blocked this turn except by two or more creatures . $Draw a card at the beginning of the next turn's upkeep .
+Windseeker Centaur,2,2,{1}{R}{R},Creature - Centaur,Vigilance
+Caustic Wasps,1,1,{2}{G},Creature - Insect,"Flying$Whenever Caustic Wasps deals combat damage to a player , you may destroy target artifact that player controls ."
+Deepwood Drummer,1,1,{1}{G},Creature - Human Spellshaper,"{ G } , { tap } , Discard a card : Target creature gets +2/+2 until end of turn ."
+Giant Caterpillar,3,3,{3}{G},Creature - Insect,"{ G } , Sacrifice Giant Caterpillar : Put a 1/1 green Insect creature token with flying named Butterfly onto the battlefield at the beginning of the next end step ."
+Kyren Legate,1,1,{1}{R},Creature - Goblin,"Haste$If an opponent controls a Plains and you control a Mountain , you may cast Kyren Legate without paying its mana cost ."
+Nightwind Glider,1,2,{2}{W},Creature - Human Rebel,"Flying , protection from black"
+Rishadan Airship,1,3,{2}{U},Creature - Human Pirate,Flying$Rishadan Airship can block only creatures with flying .
+Skull of Ramos,,,{3},Artifact,{ tap }: Add { B } to your mana pool . $$Sacrifice Skull of Ramos : Add { B } to your mana pool .
+Tidal Bore,,,{1}{U},Instant,You may return an Island you control to its owner's hand rather than pay Tidal Bore's mana cost . $You may tap or untap target creature .
+Auspicious Ancestor,3,2,{3}{W},Creature - Human Cleric,"When Auspicious Ancestor dies , you gain 3 life . $Whenever a player casts a white spell , you may pay { 1 } . If you do , you gain 1 life ."
+Crash of Rhinos,4,8,{6}{G}{G},Creature - Rhino,Trample
+Forsaken Wastes,,,{2}{B},World Enchantment,"Players can't gain life . $At the beginning of each player's upkeep , that player loses 1 life . $Whenever Forsaken Wastes becomes the target of a spell , that spell's controller loses 5 life ."
+Jolt,,,{2}{U},Instant,"You may tap or untap target artifact , creature , or land . $Draw a card at the beginning of the next turn's upkeep ."
+Nocturnal Raid,,,{2}{B}{B},Instant,Black creatures get +2/+0 until end of turn .
+Sapphire Charm,,,{U},Instant,"Choose one - Target player draws a card at the beginning of the next turn's upkeep ; or target creature gains flying until end of turn ; or target creature an opponent controls phases out . < i > (While it's phased out , it's treated as though it doesn't exist . It phases in before its controller untaps during his or her next untap step . ) < /i >"
+Teferi's Isle,,,,Legendary Land,"Phasing < i > (This phases in or out before you untap during each of your untap steps . While it's phased out , it's treated as though it doesn't exist . )</i>$Teferi's Isle enters the battlefield tapped . ${tap }: Add { U}{U } to your mana pool ."
+Worldly Tutor,,,{G},Instant,"Search your library for a creature card and reveal that card . Shuffle your library , then put the card on top of it ."
+Blinkmoth Well,,,,Land,"{ tap }: Add { C } to your mana pool . ${2 } , { tap }: Tap target noncreature artifact ."
+Dragon Blood,,,{3},Artifact,"{ 3 } , { tap }: Put a +1/+1 counter on target creature ."
+Goblin Dirigible,4,4,{6},Artifact Creature - Construct,"Flying$Goblin Dirigible doesn't untap during your untap step . $At the beginning of your upkeep , you may pay { 4 } . If you do , untap Goblin Dirigible ."
+Krark-Clan Grunt,2,2,{2}{R},Creature - Goblin Warrior,Sacrifice an artifact : Krark-Clan Grunt gets +1/+0 and gains first strike until end of turn .
+Megatog,4,3,{4}{R}{R},Creature - Atog,Sacrifice an artifact : Megatog gets +3/+3 and gains trample until end of turn .
+Oblivion Stone,,,{3},Artifact,"{ 4 } , { tap }: Put a fate counter on target permanent . ${5 } , { tap } , Sacrifice Oblivion Stone : Destroy each nonland permanent without a fate counter on it , then remove all fate counters from all permanents ."
+Scrabbling Claws,,,{1},Artifact,"{ tap }: Target player exiles a card from his or her graveyard . ${1 } , Sacrifice Scrabbling Claws : Exile target card from a graveyard . Draw a card ."
+Spoils of the Vault,,,{B},Instant,"Name a card . Reveal cards from the top of your library until you reveal the named card , then put that card into your hand . Exile all other cards revealed this way , and you lose 1 life for each of the exiled cards ."
+Tower of Fortunes,,,{4},Artifact,"{ 8 } , { tap }: Draw four cards ."
+Wurmskin Forger,2,2,{5}{G}{G},Creature - Elf Warrior,"When Wurmskin Forger enters the battlefield , distribute three +1/+1 counters among one , two , or three target creatures ."
+Core Prowler,2,2,{4},Artifact Creature - Horror,"Infect < i > (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters . ) < /i > $When Core Prowler dies , proliferate . < i > (You choose any number of permanents and/or players with counters on them , then give each another counter of a kind already there . ) < /i >"
+Goblin Wardriver,2,2,{R}{R},Creature - Goblin Warrior,"Battle cry < i > (Whenever this creature attacks , each other attacking creature gets +1/+0 until end of turn . ) < /i >"
+Leonin Relic-Warder,2,2,{W}{W},Creature - Cat Cleric,"When Leonin Relic-Warder enters the battlefield , you may exile target artifact or enchantment . $When Leonin Relic-Warder leaves the battlefield , return the exiled card to the battlefield under its owner's control ."
+Oculus,1,1,{1}{U},Creature - Homunculus,"When Oculus dies , you may draw a card ."
+Quilled Slagwurm,8,8,{4}{G}{G}{G},Creature - Wurm,
+Spire Serpent,5,3,{4}{U},Creature - Serpent,"Defender$Metalcraft - As long as you control three or more artifacts , Spire Serpent gets +2/+2 and can attack as though it didn't have defender ."
+Viridian Corrupter,2,2,{1}{G}{G},Creature - Elf Shaman,"Infect < i > (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters . ) < /i > $When Viridian Corrupter enters the battlefield , destroy target artifact ."
+Epochrasite,1,1,{2},Artifact Creature - Construct,"Epochrasite enters the battlefield with three +1/+1 counters on it if you didn't cast it from your hand . $When Epochrasite dies , exile it with three time counters on it and it gains suspend . < i > (At the beginning of your upkeep , remove a time counter . When the last is removed , cast this card without paying its mana cost . It has haste . ) < /i >"
+Riftsweeper,2,2,{1}{G},Creature - Elf Shaman,"When Riftsweeper enters the battlefield , choose target face-up exiled card . Its owner shuffles it into his or her library ."
+Ballyrush Banneret,1,2,{1}{W},Creature - Kithkin Soldier,Kithkin spells and Soldier spells you cast cost { 1 } less to cast .
+Earthbrawn,,,{1}{G},Instant,"Target creature gets +3/+3 until end of turn . $Reinforce 1-{1}{G } < i > ({1}{G } , Discard this card : Put a +1/+1 counter on target creature . ) < /i >"
+Inspired Sprite,2,2,{3}{U},Creature - Faerie Wizard,"Flash$Flying$Whenever you cast a Wizard spell , you may untap Inspired Sprite . ${tap }: Draw a card , then discard a card ."
+Nightshade Schemers,2,3,{4}{B},Creature - Faerie Wizard,"Flying$Kinship - At the beginning of your upkeep , you may look at the top card of your library . If it shares a creature type with Nightshade Schemers , you may reveal it . If you do , each opponent loses 2 life ."
+Roar of the Crowd,,,{3}{R},Sorcery,Choose a creature type . Roar of the Crowd deals damage to target creature or player equal to the number of permanents you control of the chosen type .
+Thieves' Fortune,,,{2}{U},Tribal Instant - Rogue,Prowl { U } < i > (You may cast this for its prowl cost if you dealt combat damage to a player this turn with a Rogue . ) < /i > $Look at the top four cards of your library . Put one of them into your hand and the rest on the bottom of your library in any order .
+Avenger en-Dal,1,1,{1}{W},Creature - Human Spellshaper,"{ 2}{W } , { tap } , Discard a card : Exile target attacking creature . Its controller gains life equal to its toughness ."
+Jolting Merfolk,2,2,{2}{U}{U},Creature - Merfolk,"Fading 4 < i > (This creature enters the battlefield with four fade counters on it . At the beginning of your upkeep , remove a fade counter from it . If you can't , sacrifice it . ) < /i > $Remove a fade counter from Jolting Merfolk : Tap target creature ."
+Plague Witch,1,1,{1}{B},Creature - Elf Spellshaper,"{ B } , { tap } , Discard a card : Target creature gets -1/-1 until end of turn ."
+Sivvi's Ruse,,,{2}{W}{W},Instant,"If an opponent controls a Mountain and you control a Plains , you may cast Sivvi's Ruse without paying its mana cost . $Prevent all damage that would be dealt this turn to creatures you control ."
+Alloy Myr,2,2,{3},Artifact Creature - Myr,{ tap }: Add one mana of any color to your mana pool .
+Chancellor of the Dross,6,6,{4}{B}{B}{B},Creature - Vampire,"You may reveal this card from your opening hand . If you do , at the beginning of the first upkeep , each opponent loses 3 life , then you gain life equal to the life lost this way . $Flying , lifelink"
+Evil Presence,,,{B},Enchantment - Aura,Enchant land$Enchanted land is a Swamp .
+Immolating Souleater,1,1,{2},Artifact Creature - Hound,{ RP }: Immolating Souleater gets +1/+0 until end of turn . < i > ({RP } can be paid with either { R } or 2 life . ) < /i >
+Mindcrank,,,{2},Artifact,"Whenever an opponent loses life , that player puts that many cards from the top of his or her library into his or her graveyard . < i > (Damage dealt by sources without infect causes loss of life . ) < /i >"
+Phyrexian Swarmlord,4,4,{4}{G}{G},Creature - Insect Horror,"Infect < i > (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters . ) < /i > $At the beginning of your upkeep , put a 1/1 green Insect creature token with infect onto the battlefield for each poison counter your opponents have ."
+Shattered Angel,3,3,{3}{W}{W},Creature - Angel,"Flying$Whenever a land enters the battlefield under an opponent's control , you may gain 3 life ."
+Tezzeret's Gambit,,,{3}{UP},Sorcery,"< i > ({UP } can be paid with either { U } or 2 life . ) < /i > $Draw two cards , then proliferate . < i > (You choose any number of permanents and/or players with counters on them , then give each another counter of a kind already there . ) < /i >"
+Whipflare,,,{1}{R},Sorcery,Whipflare deals 2 damage to each nonartifact creature .
+Dancing Scimitar,5,1,{4},Artifact Creature - Spirit,Flying < i > (This creature can't be blocked except by creatures with flying or reach . ) < /i >
+Greater Good,,,{2}{G}{G},Enchantment,"Sacrifice a creature : Draw cards equal to the sacrificed creature's power , then discard three cards ."
+Plagiarize,,,{3}{U},Instant,"Until end of turn , if target player would draw a card , instead that player skips that draw and you draw a card ."
+Thought Courier,1,1,{1}{U},Creature - Human Wizard,"{ tap }: Draw a card , then discard a card ."
+Baloth Pup,1,3,{1}{G},Creature - Beast,Baloth Pup has trample as long as it has a +1/+1 counter on it .
+Crumbling Vestige,,,,Land,"Crumbling Vestige enters the battlefield tapped . $When Crumbling Vestige enters the battlefield , add one mana of any color to your mana pool . ${T }: Add { C } to you mana pool . < i > ({C } represents colorless mana . ) < /i >"
+Expedite,,,{R},Instant,Target creature gains haste until end of turn . $Draw a card .
+Inverter of Truth,6,6,{2}{B}{B},Creature - Eldrazi,"Devoid < i > (This card has no color . ) < /i > $Flying$When Inverter of Truth enters the battlefield , exile all cards from your library face down , then shuffle all cards from your graveyard into your library ."
+Malakir Soothsayer,4,4,{4}{B},Creature - Vampire Shaman Ally,"< i > Cohort < /i > - { T } , Tap an untapped Ally you control : You draw a card and you lose a life ."
+Press into Service,,,{4}{R},Sorcery,Support 2 . < i > (Put a +1/+1 counter on each of up to two target creatures . ) < /i > $Gain control of target creature until end of turn . Untap that creature . It gains haste until end of turn .
+Seer's Lantern,,,{3},Artifact,"{ T }: Add { C } to your mana pool . ${2 } , { T }: Scry 1 ."
+Tar Snare,,,{2}{B},Instant,Target creature gets -3/-2 until end of turn .
+Warden of Geometries,3,2,{4},Creature - Eldrazi Drone,Vigilance${T }: Add { C } to your mana pool .
+Aven Archer,2,2,{3}{W}{W},Creature - Bird Soldier Archer,"Flying${2}{W } , { tap }: Aven Archer deals 2 damage to target attacking or blocking creature ."
+Cabal Pit,,,,Land,"{ tap }: Add { B } to your mana pool . Cabal Pit deals 1 damage to you . $Threshold - { B } , { tap } , Sacrifice Cabal Pit : Target creature gets -2/-2 until end of turn . Activate this ability only if seven or more cards are in your graveyard ."
+Confessor,1,1,{W},Creature - Human Cleric,"Whenever a player discards a card , you may gain 1 life ."
+Dogged Hunter,1,1,{2}{W},Creature - Human Nomad,{ tap }: Destroy target creature token .
+Fledgling Imp,2,2,{2}{B},Creature - Imp,"{ B } , Discard a card : Fledgling Imp gains flying until end of turn ."
+Lithatog,2,1,{1}{R}{G},Creature - Atog,Sacrifice an artifact : Lithatog gets +1/+1 until end of turn . $Sacrifice a land : Lithatog gets +1/+1 until end of turn .
+Nantuko Elder,2,1,{2}{G},Creature - Insect Druid,{ tap }: Add { C}{G } to your mana pool .
+Predict,,,{1}{U},Instant,"Name a card , then target player puts the top card of his or her library into his or her graveyard . If that card is the named card , you draw two cards . Otherwise , you draw a card ."
+Savage Firecat,0,0,{3}{R}{R},Creature - Elemental Cat,"Trample$Savage Firecat enters the battlefield with seven +1/+1 counters on it . $Whenever you tap a land for mana , remove a +1/+1 counter from Savage Firecat ."
+Stalking Bloodsucker,4,4,{4}{B}{B},Creature - Vampire,"Flying${1}{B } , Discard a card : Stalking Bloodsucker gets +2/+2 until end of turn ."
+Treetop Sentinel,3,2,{2}{U}{U},Creature - Bird Soldier,"Flying , protection from green"
+Airdrop Condor,2,2,{4}{R},Creature - Bird,"Flying${1}{R } , Sacrifice a Goblin creature : Airdrop Condor deals damage equal to the sacrificed creature's power to target creature or player ."
+Bloodstained Mire,,,,Land,"{ tap } , Pay 1 life , Sacrifice Bloodstained Mire : Search your library for a Swamp or Mountain card and put it onto the battlefield . Then shuffle your library ."
+Daru Cavalier,2,2,{3}{W},Creature - Human Soldier,"First strike$When Daru Cavalier enters the battlefield , you may search your library for a card named Daru Cavalier , reveal it , and put it into your hand . If you do , shuffle your library ."
+Everglove Courier,1,2,{2}{G},Creature - Elf,"You may choose not to untap Everglove Courier during your untap step . ${2}{G } , { tap }: Target Elf creature gets +2/+2 and has trample for as long as Everglove Courier remains tapped ."
+Goblin Sledder,1,1,{R},Creature - Goblin,Sacrifice a Goblin : Target creature gets +1/+1 until end of turn .
+Insurrection,,,{5}{R}{R}{R},Sorcery,Untap all creatures and gain control of them until end of turn . They gain haste until end of turn .
+Peer Pressure,,,{3}{U},Sorcery,"Choose a creature type . If you control more creatures of that type than each other player , you gain control of all creatures of that type . < i > (This effect lasts indefinitely . ) < /i >"
+Shepherd of Rot,1,1,{1}{B},Creature - Zombie Cleric,{ tap }: Each player loses 1 life for each Zombie on the battlefield .
+Steely Resolve,,,{1}{G},Enchantment,"As Steely Resolve enters the battlefield , choose a creature type . $Creatures of the chosen type have shroud . < i > (They can't be the targets of spells or abilities . ) < /i >"
+Voidmage Prodigy,1,2,{U}{U},Creature - Human Wizard,"{ U}{U } , Sacrifice a Wizard : Counter target spell . $Morph { U } < i > You may cast this card face downn as a 2/2 creature for { 3 } . Turn it face up any time for its morph cost . ) < /i >"
+Exotic Curse,,,{2}{B},Enchantment - Aura,Enchant creature$Domain - Enchanted creature gets -1/-1 for each basic land type among lands you control .
+Brute Force,,,{R},Instant,Target creature gets +3/+3 until end of turn .
+Evolution Charm,,,{1}{G},Instant,"Choose one - Search your library for a basic land card , reveal it , put it into your hand , then shuffle your library ; or return target creature card from your graveyard to your hand ; or target creature gains flying until end of turn ."
+Imp's Mischief,,,{1}{B},Instant,Change the target of target spell with a single target . You lose life equal to that spell's converted mana cost .
+Null Profusion,,,{4}{B}{B},Enchantment,"Skip your draw step . $Whenever you play a card , draw a card . $Your maximum hand size is two ."
+Roiling Horror,*,*,{3}{B}{B},Creature - Horror,"Roiling Horror's power and toughness are each equal to your life total minus the life total of an opponent with the most life . $Suspend X-{X}{B}{B}{B } . X can't be 0 . < i > (Rather than cast this card from your hand , you may pay { X}{B}{B}{B } and exile it with X time counters on it . At the beginning of your upkeep , remove a time counter . When the last is removed , cast it without paying its mana cost . It has haste . ) < /i > $Whenever a time counter is removed from Roiling Horror while it's exiled , target player loses 1 life and you gain 1 life ."
+Tidewalker,*,*,{2}{U},Creature - Elemental,"Tidewalker enters the battlefield with a time counter on it for each Island you control . $Vanishing < i > (At the beginning of your upkeep , remove a time counter from this permanent . When the last is removed , sacrifice it . )</i>$Tidewalker's power and toughness are each equal to the number of time counters on it ."
+"Bosh, Iron Golem",7,6,{8},Legendary Artifact Creature - Golem,"Trample${3}{R } , Sacrifice an artifact : Bosh , Iron Golem deals damage equal to the sacrificed artifact's converted mana cost to target creature or player ."
+Lodestone Myr,2,2,{4},Artifact Creature - Myr,Trample$Tap an untapped artifact you control : Lodestone Myr gets +1/+1 until end of turn .
+Taurean Mauler,2,2,{2}{R},Creature - Shapeshifter,"Changeling < i > (This card is every creature type at all times . ) < /i > $Whenever an opponent casts a spell , you may put a +1/+1 counter on Taurean Mauler ."
+Krosan Verge,,,,Land,"Krosan Verge enters the battlefield tapped . ${tap }: Add { C } to your mana pool . ${2 } , { tap } , Sacrifice Krosan Verge : Search your library for a Forest card and a Plains card and put them onto the battlefield tapped . Then shuffle your library ."
+Whirlpool Warrior,2,2,{2}{U},Creature - Merfolk Warrior,"When Whirlpool Warrior enters the battlefield , shuffle the cards from your hand into your library , then draw that many cards . ${R } , Sacrifice Whirlpool Warrior : Each player shuffles the cards from his or her hand into his or her library , then draws that many cards ."
+Disciple of Kangee,2,2,{2}{W},Creature - Human Wizard,"{ U } , { tap }: Target creature gains flying and becomes blue until end of turn ."
+Keldon Mantle,,,{1}{R},Enchantment - Aura,Enchant creature${B }: Regenerate enchanted creature . ${R }: Enchanted creature gets +1/+0 until end of turn . ${G }: Enchanted creature gains trample until end of turn .
+Phyrexian Scuta,3,3,{3}{B},Creature - Zombie,"Kicker-Pay 3 life . < i > (You may pay 3 life in addition to any other costs as you cast this spell . ) < /i > $If Phyrexian Scuta was kicked , it enters the battlefield with two +1/+1 counters on it ."
+Singe,,,{R},Instant,Singe deals 1 damage to target creature . That creature becomes black until end of turn .
+Treva's Ruins,,,,Land - Lair,"When Treva's Ruins enters the battlefield , sacrifice it unless you return a non-Lair land you control to its owner's hand . ${tap }: Add { G } , { W } , or { U } to your mana pool ."
+Devastation,,,{5}{R}{R},Sorcery,Destroy all creatures and lands .
+Mercenary Knight,4,4,{2}{B},Creature - Human Mercenary Knight,"When Mercenary Knight enters the battlefield , sacrifice it unless you discard a creature card ."
+Spiritual Guardian,4,3,{3}{W}{W},Creature - Spirit,"When Spiritual Guardian enters the battlefield , you gain 4 life ."
+Abyssal Nightstalker,2,2,{3}{B},Creature - Nightstalker,"Whenever Abyssal Nightstalker attacks and isn't blocked , defending player discards a card ."
+Extinguish,,,{1}{U},Instant,Counter target sorcery spell .
+Ogre Berserker,2,4,{4}{R},Creature - Ogre Berserker,Haste
+Trokin High Guard,3,3,{3}{W},Creature - Human Knight,
+"Diaochan, Artful Beauty",1,1,{3}{R},Legendary Creature - Human Advisor,"{ tap }: Destroy target creature of your choice , then destroy target creature of an opponent's choice . Activate this ability only during your turn , before attackers are declared ."
+"Ma Chao, Western Warrior",3,3,{3}{R}{R},Legendary Creature - Human Soldier Warrior,"Horsemanship < i > (This creature can't be blocked except by creatures with horsemanship . ) < /i > $Whenever Ma Chao , Western Warrior attacks alone , it can't be blocked this combat ."
+Shu Foot Soldiers,3,2,{2}{W},Creature - Human Soldier,
+Wei Ambush Force,1,1,{1}{B},Creature - Human Soldier,"Whenever Wei Ambush Force attacks , it gets +2/+0 until end of turn ."
+"Zhang Liao, Hero of Hefei",3,3,{4}{B}{B},Legendary Creature - Human Soldier,"Whenever Zhang Liao , Hero of Hefei deals damage to an opponent , that opponent discards a card ."
+Glory,3,3,{{3}{W}{W},Creature - Incarnation,Flying${2}{W }: Choose a color . Creatures you control gain protection from the chosen color until end of turn . Activate this ability only if Glory is in your graveyard .
+Fault Riders,2,2,{2}{R},Creature - Human Soldier,Sacrifice a land : Fault Riders gets +2/+0 and gains first strike until end of turn . Activate this ability only once each turn .
+Mercenary Informer,1,2,{2}{W},Creature - Human Rebel Mercenary,Mercenary Informer can't be the target of black spells or abilities from black sources . ${2}{W }: Put target nontoken Mercenary on the bottom of its owner's library .
+Shield Dancer,3,1,{2}{W},Creature - Human Rebel,"{ 2}{W }: The next time target attacking creature would deal combat damage to Shield Dancer this turn , that creature deals that damage to itself instead ."
+Whip Sergeant,1,2,{2}{R},Creature - Human Soldier,{ R }: Target creature gains haste until end of turn . < i > (It can attack this turn . ) < /i >
+Caregiver,1,1,{W},Creature - Human Cleric,"{ W } , Sacrifice a creature : Prevent the next 1 damage that would be dealt to target creature or player this turn ."
+Dark Confidant,1,2,{1}{B},Creature - Human Wizard,"At the beginning of your upkeep , reveal the top card of your library and put that card into your hand . You lose life equal to its converted mana cost ."
+Ethereal Usher,3,2,{5}{U},Creature - Spirit,"{ U } , { tap }: Target creature is unblockable this turn . $Transmute { 1}{U}{U } < i > ({1}{U}{U } , Discard this card : Search your library for a card with the same converted mana cost as this card , reveal it , and put it into your hand . Then shuffle your library . Transmute only as a sorcery . ) < /i >"
+Golgari Grave-Troll,0,0,{4}{G},Creature - troll skeleton,"Golgari Grave-Troll enters the battlefield with a +1/+1 counter on it for each creature card in your graveyard . ${1 } , Remove a +1/+1 counter from Golgari Grave-Troll : Regenerate Golgari Grave-Troll . $Dredge 6 < i > (If you would draw a card , instead you may put exactly six cards from the top of your library into your graveyard . If you do , return this card from your graveyard to your hand . Otherwise , draw a card . ) < /i >"
+Hunted Phantasm,6,4,{1}{U}{U},Creature - Spirit,"Hunted Phantasm is unblockable . $When Hunted Phantasm enters the battlefield , put five 1/1 red Goblin creature tokens onto the battlefield under target opponent's control ."
+Muddle the Mixture,,,{U}{U},Instant,"Counter target instant or sorcery spell . $Transmute { 1}{U}{U } < i > ({1}{U}{U } , Discard this card : Search your library for a card with the same converted mana cost as this card , reveal it , and put it into your hand . Then shuffle your library . Transmute only as a sorcery . ) < /i >"
+Remand,,,{1}{U},Instant,"Counter target spell . If that spell is countered this way , put it into its owner's hand instead of into that player's graveyard . $Draw a card ."
+Shambling Shell,1,3,{1}{B}{G},Creature - Plant Zombie,"Sacrifice Shambling Shell : Put a +1/+1 counter on target creature . $Dredge 3 < i > (If you would draw a card , instead you may put exactly three cards from the top of your library into your graveyard . If you do , return this card from your graveyard to your hand . Otherwise , draw a card . ) < /i >"
+Terrarion,,,{1},Artifact,"Terrarion enters the battlefield tapped . ${2 } , { tap } , Sacrifice Terrarion : Add two mana in any combination of colors to your mana pool . $When Terrarion is put into a graveyard from the battlefield , draw a card ."
+Voyager Staff,,,{1},Artifact,"{ 2 } , Sacrifice Voyager Staff : Exile target creature . Return the exiled card to the battlefield under its owner's control at the beginning of the next end step ."
+Azorius Arrester,1,2,{1}{W},Creature - Human Soldier,"When Azorius Arrester enters the battlefield , detain target creature an opponent controls . < i > (Until your next turn , that creature can't attack or block and its activated abilities can't be activated . ) < /i >"
+Chorus of Might,,,{3}{G},Instant,"Until end of turn , target creature gets +1/+1 for each creature you control and gains trample ."
+Deathrite Shaman,2,1,{BG},Creature - Elf Shaman,"{ tap }: Exile target land card from a graveyard . Add one mana of any color to your mana pool . ${B } , { tap }: Exile target instant or sorcery card from a graveyard . Each opponent loses 2 life . ${G } , { tap }: Exile target creature card from a graveyard . You gain 2 life ."
+Explosive Impact,,,{5}{R},Instant,Explosive Impact deals 5 damage to target creature or player .
+Grove of the Guardian,,,,Land,"{ tap }: Add { C } to your mana pool . ${3}{G}{W } , { tap } , Tap two untapped creatures you control , Sacrifice Grove of the Guardian : Put an 8/8 green and white Elemental creature token with vigilance onto the battlefield ."
+Jarad's Orders,,,{2}{B}{G},Sorcery,Search your library for up to two creature cards and reveal them . Put one into your hand and the other into your graveyard . Then shuffle your library .
+Nivmagus Elemental,2,1,{UR},Creature - Elemental,Exile an instant or sorcery spell you control : Put two +1/+1 counters on Nivmagus Elemental . < i > (That spell won't resolve . ) < /i >
+Rakdos Shred-Freak,1,2,{BR}{BR},Creature - Human Berserker,Haste
+Sewer Shambler,1,2,{2}{B},Creature - Zombie,"Swampwalk < i > (This creature is unblockable as long as defending player controls a Swamp . ) < /i > $Scavenge { 2}{B } < i > ({2}{B } , Exile this card from your graveyard : Put a number of +1/+1 counters equal to this card's power on target creature . Scavenge only as a sorcery . ) < /i >"
+Street Spasm,,,{X}{R},Instant,"Street Spasm deals X damage to target creature without flying you don't control . $Overload { X}{X}{R}{R } < i > (You may cast this spell for its overload cost . If you do , change its text by replacing all instances of "" target "" with "" each . "" ) < /i >"
+Trestle Troll,4,1,{1}{B}{G},Creature - Troll,Defender$Reach < i > (This creature can block creatures with flying . ) < /i > ${1}{B}{G }: Regenerate Trestle Troll .
+Desert Twister,,,{4}{G}{G},Sorcery,Destroy target permanent .
+Battle Rampart,3,1,{2}{R},Creature - Wall,Defender${tap }: Target creature gains haste until end of turn .
+Dawnglare Invoker,1,2,{2}{W},Creature - Kor Wizard,Flying${8 }: Tap all creatures target player controls .
+"Emrakul, the Aeons Torn",15,15,{15},Legendary Creature - Eldrazi,"Emrakul , the Aeons Torn can't be countered . $When you cast Emrakul , take an extra turn after this one . $Flying , protection from colored spells , annihilator 6$When Emrakul is put into a graveyard from anywhere , its owner shuffles his or her graveyard into his or her library ."
+Grotag Siege-Runner,1,2,{1}{R},Creature - Goblin Rogue,"{ R } , Sacrifice Grotag Siege-Runner : Destroy target creature with defender . Grotag Siege-Runner deals 2 damage to that creature's controller ."
+Kiln Fiend,2,1,{1}{R},Creature - Elemental Beast,"Whenever you cast an instant or sorcery spell , Kiln Fiend gets +3/+0 until end of turn ."
+Merfolk Skyscout,3,2,{2}{U}{U},Creature - Merfolk Scout,"Flying$Whenever Merfolk Skyscout attacks or blocks , untap target permanent ."
+Pawn of Ulamog,2,2,{1}{B}{B},Creature - Vampire Shaman,"Whenever Pawn of Ulamog or another nontoken creature you control dies , you may put a 0/1 colorless Eldrazi Spawn creature token onto the battlefield . It has "" Sacrifice this creature : Add { C } to your mana pool . """
+Sarkhan the Mad,,,{3}{B}{R},Planeswalker - Sarkhan,"0 : Reveal the top card of your library and put it into your hand . Sarkhan the Mad deals damage to himself equal to that card's converted mana cost . $-2 : Target creature's controller sacrifices it , then that player puts a 5/5 red Dragon creature token with flying onto the battlefield . $-4 : Each Dragon creature you control deals damage equal to its power to target player ."
+Stalwart Shield-Bearers,3,0,{1}{W},Creature - Human Soldier,Defender$Other creatures you control with defender get +0/+2 .
+Vengevine,3,4,{2}{G}{G},Creature - Elemental,"Haste$Whenever you cast a spell , if it's the second creature spell you cast this turn , you may return Vengevine from your graveyard to the battlefield ."
+Bounteous Kirin,4,4,{5}{G}{G},Legendary Creature - Kirin Spirit,"Flying$Whenever you cast a Spirit or Arcane spell , you may gain life equal to that spell's converted mana cost ."
+Dreamcatcher,1,1,{U},Creature - Spirit,"Whenever you cast a Spirit or Arcane spell , you may sacrifice Dreamcatcher . If you do , draw a card ."
+Glitterfang,1,1,{R},Creature - Spirit,"Haste$At the beginning of the end step , return Glitterfang to its owner's hand ."
+Kagemaro's Clutch,,,{3}{B},Enchantment - Aura,"Enchant creature$Enchanted creature gets -X/-X , where X is the number of cards in your hand ."
+Matsu-Tribe Birdstalker,2,2,{2}{G}{G},Creature - Snake Warrior Archer,"Whenever Matsu-Tribe Birdstalker deals combat damage to a creature , tap that creature and it doesn't untap during its controller's next untap step . ${G }: Matsu-Tribe Birdstalker gains reach until end of turn . < i > (It can block creatures with flying . ) < /i >"
+Oni of Wild Places,5,6,{5}{R},Creature - Demon Spirit,"Haste$At the beginning of your upkeep , return a red creature you control to its owner's hand ."
+Sakashima the Impostor,1,3,{2}{U}{U},Legendary Creature - Human Rogue,"You may have Sakashima the Impostor enter the battlefield as a copy of any creature on the battlefield , except its name is still Sakashima the Impostor , it's legendary in addition to its other types , and it gains "" { 2}{U}{U }: Return Sakashima the Impostor to its owner's hand at the beginning of the next end step . """
+"Soramaro, First to Dream",*,*,{4}{U}{U},Legendary Creature - Spirit,"Flying$Soramaro , First to Dream's power and toughness are each equal to the number of cards in your hand . ${4 } , Return a land you control to its owner's hand : Draw a card ."
+Asceticism,,,{3}{G}{G},Enchantment,Creatures you control have hexproof . < i > (They can't be the targets of spells or abilities your opponents control . ) < /i > ${1}{G }: Regenerate target creature .
+Carrion Call,,,{3}{G},Instant,Put two 1/1 green Insect creature tokens with infect onto the battlefield . < i > (They deal damage to creatures in the form of -1/-1 counters and to players in the form of poison counters . ) < /i >
+Dispense Justice,,,{2}{W},Instant,Target player sacrifices an attacking creature . $Metalcraft - That player sacrifices two attacking creatures instead if you control three or more artifacts .
+Galvanic Blast,,,{R},Instant,Galvanic Blast deals 2 damage to target creature or player . $Metalcraft - Galvanic Blast deals 4 damage to that creature or player instead if you control three or more artifacts .
+Hoard-Smelter Dragon,5,5,{4}{R}{R},Creature - Dragon,"Flying${3}{R }: Destroy target artifact . Hoard-Smelter Dragon gets +X/+0 until end of turn , where X is that artifact's converted mana cost ."
+Lumengrid Drake,2,2,{3}{U},Creature - Drake,"Flying$Metalcraft - When Lumengrid Drake enters the battlefield , if you control three or more artifacts , return target creature to its owner's hand ."
+Necropede,1,1,{2},Artifact Creature - Insect,"Infect < i > (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters . ) < /i > $When Necropede dies , you may put a -1/-1 counter on target creature ."
+Psychic Miasma,,,{1}{B},Sorcery,"Target player discards a card . If a land card is discarded this way , return Psychic Miasma to its owner's hand ."
+Shape Anew,,,{3}{U},Sorcery,"The controller of target artifact sacrifices it , then reveals cards from the top of his or her library until he or she reveals an artifact card . That player puts that card onto the battlefield , then shuffles all other cards revealed this way into his or her library ."
+Tangle Angler,5,1,{3}{G},Creature - Horror,Infect < i > (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters . ) < /i > ${G }: Target creature blocks Tangle Angler this turn if able .
+Vault Skyward,,,{U},Instant,Target creature gains flying until end of turn . Untap it .
+Aven Farseer,1,1,{1}{W},Creature - Bird Soldier,"Flying$Whenever a permanent is turned face up , put a +1/+1 counter on Aven Farseer ."
+Dragon Tyrant,6,6,{8}{R}{R},Creature - Dragon,"Flying , trample$Double strike < i > (This creature deals both first-strike and regular combat damage . ) < /i > $At the beginning of your upkeep , sacrifice Dragon Tyrant unless you pay { R}{R}{R}{R } . ${R }: Dragon Tyrant gets +1/+0 until end of turn ."
+Noble Templar,6,3,{5}{W},Creature - Human Cleric Soldier,"Vigilance$Plainscycling { 2 } < i > ({2 } , Discard this card : Search your library for a Plains card , reveal it , and put it into your hand . Then shuffle your library . ) < /i >"
+Tendrils of Agony,,,{2}{B}{B},Sorcery,"Target player loses 2 life and you gain 2 life . $Storm < i > (When you cast this spell , copy it for each spell cast before it this turn . You may choose new targets for the copies . ) < /i >"
+Ancestral Memories,,,{2}{U}{U}{U},Sorcery,Look at the top seven cards of your library . Put two of them into your hand and the rest into your graveyard .
+Grapeshot Catapult,3,2,{4},Artifact Creature - Construct,{ tap }: Grapeshot Catapult deals 1 damage to target creature with flying .
+Pyrotechnics,,,{4}{R},Sorcery,Pyrotechnics deals 4 damage divided as you choose among any number of target creatures and/or players .
+Thoughtleech,,,{G}{G},Enchantment,"Whenever an Island an opponent controls becomes tapped , you may gain 1 life ."
+Barrenton Medic,4,0,{4}{W},Creature - Kithkin Cleric,{ tap }: Prevent the next 1 damage that would be dealt to target creature or player this turn . $Put a -1/-1 counter on Barrenton Medic : Untap Barrenton Medic .
+Cinderhaze Wretch,2,3,{4}{B},Creature - Elemental Shaman,{ tap }: Target player discards a card . Activate this ability only during your turn . $Put a -1/-1 counter on Cinderhaze Wretch : Untap Cinderhaze Wretch .
+Dream Salvage,,,{UB},Instant,Draw cards equal to the number of cards target opponent discarded this turn .
+Flow of Ideas,,,{5}{U},Sorcery,Draw a card for each Island you control .
+Grief Tyrant,8,8,{5}{BR},Creature - Horror,"Grief Tyrant enters the battlefield with four -1/-1 counters on it . $When Grief Tyrant dies , put a -1/-1 counter on target creature for each -1/-1 counter on Grief Tyrant ."
+Kinscaer Harpoonist,2,2,{3}{U},Creature - Kithkin Soldier,"Flying$Whenever Kinscaer Harpoonist attacks , you may have target creature lose flying until end of turn ."
+Medicine Runner,1,2,{1}{GW},Creature - Elf Cleric,"When Medicine Runner enters the battlefield , you may remove a counter from target permanent ."
+Nurturer Initiate,1,1,{G},Creature - Elf Shaman,"Whenever a player casts a green spell , you may pay { 1 } . If you do , target creature gets +1/+1 until end of turn ."
+Puppeteer Clique,2,3,{3}{B}{B},Creature - Faerie Wizard,"Flying$When Puppeteer Clique enters the battlefield , put target creature card from an opponent's graveyard onto the battlefield under your control . It gains haste . At the beginning of your next end step , exile it . $Persist < i > (When this creature dies , if it had no -1/-1 counters on it , return it to the battlefield under its owner's control with a -1/-1 counter on it . ) < /i >"
+Runed Halo,,,{W}{W},Enchantment,"As Runed Halo enters the battlefield , name a card . $You have protection from the chosen name . < i > (You can't be targeted , dealt damage , or enchanted by anything with that name . ) < /i >"
+Slinking Giant,4,4,{2}{R}{R},Creature - Giant Rogue,"Wither < i > (This deals damage to creatures in the form of -1/-1 counters . ) < /i > $Whenever Slinking Giant blocks or becomes blocked , it gets -3/-0 until end of turn ."
+Thistledown Duo,2,2,{2}{WU},Creature - Kithkin Soldier Wizard,"Whenever you cast a white spell , Thistledown Duo gets +1/+1 until end of turn . $Whenever you cast a blue spell , Thistledown Duo gains flying until end of turn ."
+Whimwader,4,6,{4}{U},Creature - Elemental,Whimwader can't attack unless defending player controls a blue permanent .
+Algae Gharial,1,1,{3}{G},Creature - Crocodile,"Shroud$Whenever another creature dies , you may put a +1/+1 counter on Algae Gharial ."
+Broodmate Dragon,4,4,{3}{B}{R}{G},Creature - Dragon,"Flying$When Broodmate Dragon enters the battlefield , put a 4/4 red Dragon creature token with flying onto the battlefield ."
+Dawnray Archer,1,1,{2}{U},Creature - Human Archer,"Exalted < i > (Whenever a creature you control attacks alone , that creature gets +1/+1 until end of turn . ) < /i > ${W } , { tap }: Dawnray Archer deals 1 damage to target attacking or blocking creature ."
+Ethersworn Canonist,2,2,{1}{W},Artifact Creature - Human Cleric,Each player who has cast a nonartifact spell this turn can't cast additional nonartifact spells .
+Grixis Panorama,,,,Land,"{ tap }: Add { C } to your mana pool . ${1 } , { tap } , Sacrifice Grixis Panorama : Search your library for a basic Island , Swamp , or Mountain card and put it onto the battlefield tapped . Then shuffle your library ."
+Kederekt Leviathan,5,5,{6}{U}{U},Creature - Leviathan,"When Kederekt Leviathan enters the battlefield , return all other nonland permanents to their owners ' hands . $Unearth { 6}{U } < i > ({6}{U }: Return this card from your graveyard to the battlefield . It gains haste . Exile it at the beginning of the next end step or if it would leave the battlefield . Unearth only as a sorcery . ) < /i >"
+Mosstodon,3,5,{4}{G},Creature - Plant Elephant,{ 1 }: Target creature with power 5 or greater gains trample until end of turn .
+Qasali Ambusher,3,2,{1}{G}{W},Creature - Cat Warrior,"Reach$If a creature is attacking you and you control a Forest and a Plains , you may cast Qasali Ambusher without paying its mana cost and as though it had flash ."
+Sanctum Gargoyle,3,2,{3}{W},Artifact Creature - Gargoyle,"Flying$When Sanctum Gargoyle enters the battlefield , you may return target artifact card from your graveyard to your hand ."
+Skeletonize,,,{4}{R},Instant,"Skeletonize deals 3 damage to target creature . When a creature dealt damage this way dies this turn , put a 1/1 black Skeleton creature token onto the battlefield with "" { B }: Regenerate this creature . """
+Thunder-Thrash Elder,1,1,{2}{R},Creature - Viashino Warrior,"Devour 3 < i > (As this enters the battlefield , you may sacrifice any number of creatures . This creature enters the battlefield with three times that many +1/+1 counters on it . ) < /i >"
+Windwright Mage,2,2,{W}{U}{B},Artifact Creature - Human Wizard,Lifelink < i > (Damage dealt by this creature also causes you to gain that much life . ) < /i > $Windwright Mage has flying as long as an artifact card is in your graveyard .
+Dakmor Sorceress,4,*,{5}{B},Creature - Human Wizard,Dakmor Sorceress's power is equal to the number of Swamps you control .
+Wind Sail,,,{1}{U},Sorcery,One or two target creatures gain flying until end of turn .
+Corrupting Licid,2,2,{2}{B},Creature - Licid,"{ B } , { tap }: Corrupting Licid loses this ability and becomes an Aura enchantment with enchant creature . Attach it to target creature . You may pay { B } to end this effect . $Enchanted creature has fear . < i > (It can't be blocked except by artifact creatures and/or black creatures . ) < /i >"
+Hermit Druid,1,1,{1}{G},Creature - Human Druid,"{ G } , { tap }: Reveal cards from the top of your library until you reveal a basic land card . Put that card into your hand and all other cards revealed this way into your graveyard ."
+Rabid Rats,1,1,{1}{B},Creature - Rat,{ tap }: Target blocking creature gets -1/-1 until end of turn .
+Stronghold Taskmaster,3,4,{2}{B}{B},Creature - Giant Minion,Other black creatures get -1/-1 .
+Ancient Runes,,,{2}{R},Enchantment,"At the beginning of each player's upkeep , Ancient Runes deals damage to that player equal to the number of artifacts he or she controls ."
+Canopy Spider,3,1,{1}{G},Creature - Spider,Reach < i > (This creature can block creatures with flying . ) < /i >
+Dark Banishing,,,{2}{B},Instant,Destroy target nonblack creature . It can't be regenerated .
+Elite Javelineer,2,2,{2}{W},Creature - Human Soldier,"Whenever Elite Javelineer blocks , it deals 1 damage to target attacking creature ."
+Fool's Tome,,,{4},Artifact,"{ 2 } , { tap }: Draw a card . Activate this ability only if you have no cards in hand ."
+Hero's Resolve,,,{1}{W},Enchantment - Aura,Enchant creature$Enchanted creature gets +1/+5 .
+Lobotomy,,,{2}{U}{B},Sorcery,"Target player reveals his or her hand , then you choose a card other than a basic land card from it . Search that player's graveyard , hand , and library for all cards with the same name as the chosen card and exile them . Then that player shuffles his or her library ."
+Mogg Hollows,,,,Land,{ tap }: Add { C } to your mana pool . ${tap }: Add { R } or { G } to your mana pool . Mogg Hollows doesn't untap during your next untap step .
+Propaganda,,,{2}{U},Enchantment,Creatures can't attack you unless their controller pays { 2 } for each creature he or she controls that's attacking you .
+Ruby Medallion,,,{2},Artifact,Red spells you cast cost { 1 } less to cast .
+Shadow Rift,,,{U},Instant,Target creature gains shadow until end of turn . < i > (It can block or be blocked by only creatures with shadow . ) < /i > $Draw a card .
+Spontaneous Combustion,,,{1}{B}{R},Instant,"As an additional cost to cast Spontaneous Combustion , sacrifice a creature . $Spontaneous Combustion deals 3 damage to each creature ."
+Torture Chamber,,,{3},Artifact,"At the beginning of your upkeep , put a pain counter on Torture Chamber . $At the beginning of your end step , Torture Chamber deals damage to you equal to the number of pain counters on it . ${1 } , { tap } , Remove all pain counters from Torture Chamber : Torture Chamber deals damage to target creature equal to the number of pain counters removed this way ."
+Avenging Angel,3,3,{3}{W}{W},Creature - Angel,"Flying$When Avenging Angel dies , you may put it on top of its owner's library ."
+Revenant,*,*,{4}{B},Creature - Spirit,Flying$Revenant's power and toughness are each equal to the number of creature cards in your graveyard .
+Wayward Soul,2,3,{2}{U}{U},Creature - Spirit,Flying${U }: Put Wayward Soul on top of its owner's library .
+Beacon of Destruction,,,{3}{R}{R},Instant,Beacon of Destruction deals 5 damage to target creature or player . Shuffle Beacon of Destruction into its owner's library .
+Crucible of Worlds,,,{3},Artifact,You may play land cards from your graveyard .
+Elvish Champion,2,2,{1}{G}{G},Creature - Elf,Other Elf creatures get +1/+1 and have forestwalk . < i>(They're unblockable as long as defending player controls a Forest . ) < /i >
+Goblin Elite Infantry,2,2,{1}{R},Creature - Goblin Warrior,"Whenever Goblin Elite Infantry blocks or becomes blocked , it gets -1/-1 until end of turn ."
+Juggernaut,3,5,{4},Artifact Creature - Juggernaut,Juggernaut attacks each turn if able . $Juggernaut can't be blocked by Walls .
+Mind Stone,,,{2},Artifact,"{ tap }: Add { C } to your mana pool . ${1 } , { tap } , Sacrifice Mind Stone : Draw a card ."
+Puppeteer,2,1,{2}{U},Creature - Human Wizard,"{ U } , { tap }: You may tap or untap target creature ."
+Rule of Law,,,{2}{W},Enchantment,Each player can't cast more than one spell each turn .
+Sky Weaver,1,2,{1}{U},Creature - Metathran Wizard,{ 2 }: Target white or black creature gains flying until end of turn . < i > (It can't be blocked except by creatures with flying or reach . ) < /i >
+Terramorphic Expanse,,,,Land,"{ tap } , Sacrifice Terramorphic Expanse : Search your library for a basic land card and put it onto the battlefield tapped . Then shuffle your library ."
+Viridian Shaman,2,2,{2}{G},Creature - Elf Shaman,"When Viridian Shaman enters the battlefield , destroy target artifact ."
+Drowned,1,1,{1}{U},Creature - Zombie,{ B }: Regenerate Drowned .
+Rag Man,1,2,{2}{B}{B},Creature - Human Minion,"{ B}{B}{B } , { tap }: Target opponent reveals his or her hand and discards a creature card at random . Activate this ability only during your turn ."
+Anvilwrought Raptor,1,2,{4},Artifact Creature - Bird,"Flying , first strike"
+Breaching Hippocamp,2,3,{3}{U},Creature - Horse Fish,"Flash < i > (You may cast this spell any time you could cast an instant . ) < /i > $When Breaching Hippocamp enters the battlefield , untap another target creature you control ."
+Deathbellow Raider,3,2,{1}{R},Creature - Minotaur Berserker,Deathbellow Raider attacks each turn if able . ${2}{B }: Regenerate Deathbellow Raider .
+Firedrinker Satyr,1,2,{R},Creature - Satyr Shaman,"Whenever Firedrinker Satyr is dealt damage , it deals that much damage to you . ${1}{R }: Firedrinker Satyr gets +1/+0 until end of turn and deals 1 damage to you ."
+Hunt the Hunter,,,{G},Sorcery,Target green creature you control gets +2/+2 until end of turn . It fights target green creature an opponent controls .
+Minotaur Skullcleaver,2,2,{2}{R},Creature - Minotaur Berserker,"Haste$When Minotaur Skullcleaver enters the battlefield , it gets +2/+0 until end of turn ."
+Peak Eruption,,,{2}{R},Sorcery,Destroy target Mountain . Peak Eruption deals 3 damage to that land's controller .
+Read the Bones,,,{2}{B},Sorcery,"Scry 2 , then draw two cards . You lose 2 life . < i > (To scry 2 , look at the top two cards of your library , then put any number of them on the bottom of your library and the rest on top in any order . ) < /i >"
+Silent Artisan,5,3,{3}{W}{W},Creature - Giant,
+Thassa's Bounty,,,{5}{U},Sorcery,Draw three cards . Target player puts the top three cards of his or her library into his or her graveyard .
+Vulpine Goliath,5,6,{4}{G}{G},Creature - Fox,Trample
+Bewilder,,,{2}{U},Instant,Target creature gets -3/-0 until end of turn . $Draw a card .
+Deep-Sea Kraken,6,6,{7}{U}{U}{U},Creature - Kraken,"Deep-Sea Kraken is unblockable . $Suspend 9-{2}{U } < i > (Rather than cast this card from your hand , you may pay { 2}{U } and exile it with nine time counters on it . At the beginning of your upkeep , remove a time counter . When the last is removed , cast it without paying its mana cost . It has haste . ) < /i > $Whenever an opponent casts a spell , if Deep-Sea Kraken is suspended , remove a time counter from it ."
+Flagstones of Trokair,,,,Legendary Land,"{ tap }: Add { W } to your mana pool . $When Flagstones of Trokair is put into a graveyard from the battlefield , you may search your library for a Plains card and put it onto the battlefield tapped . If you do , shuffle your library ."
+Greenseeker,1,1,{G},Creature - Elf Spellshaper,"{ G } , { tap } , Discard a card : Search your library for a basic land card , reveal it , and put it into your hand . Then shuffle your library ."
+Lim-Dul the Necromancer,4,4,{5}{B}{B},Legendary Creature - Human Wizard,"Whenever a creature an opponent controls dies , you may pay { 1}{B } . If you do , return that card to the battlefield under your control . If it's a creature , it's a Zombie in addition to its other creature types . ${1}{B }: Regenerate target Zombie ."
+Mystical Teachings,,,{3}{U},Instant,"Search your library for an instant card or a card with flash , reveal it , and put it into your hand . Then shuffle your library . $Flashback { 5}{B } < i > (You may cast this card from your graveyard for its flashback cost . Then exile it . ) < /i >"
+Pull from Eternity,,,{W},Instant,Put target face-up exiled card into its owner's graveyard .
+Sidewinder Sliver,1,1,{W},Creature - Sliver,"All Sliver creatures have flanking . < i > (Whenever a creature without flanking blocks a Sliver , the blocking creature gets -1/-1 until end of turn . ) < /i >"
+Sudden Shock,,,{1}{R},Instant,"Split second < i > (As long as this spell is on the stack , players can't cast spells or activate abilities that aren't mana abilities . ) < /i > $Sudden Shock deals 2 damage to target creature or player ."
+Two-Headed Sliver,1,1,{1}{R},Creature - Sliver,"All Sliver creatures have "" This creature can't be blocked except by two or more creatures . """
+Arena,,,,Land,"{ 3 } , { tap }: Tap target creature you control and target creature of an opponent's choice he or she controls . Those creatures fight each other . < i > (Each deals damage equal to its power to the other . ) < /i >"
+Krosan Cloudscraper,13,13,{7}{G}{G}{G},Creature - Beast Mutant,"At the beginning of your upkeep , sacrifice Krosan Cloudscraper unless you pay { G}{G } . $Morph { 7}{G}{G } < i > You may cast this card face downn as a 2/2 creature for { 3 } . Turn it face up any time for its morph cost . ) < /i >"
+Wall of Roots,5,0,{1}{G},Creature - Plant Wall,Defender$Put a -0/-1 counter on Wall of Roots : Add { G } to your mana pool . Activate this ability only once each turn .
+Cephalid Illusionist,1,1,{1}{U},Creature - Cephalid Wizard,"Whenever Cephalid Illusionist becomes the target of a spell or ability , put the top three cards of your library into your graveyard . ${2}{U } , { tap }: Prevent all combat damage that would be dealt to and dealt by target creature you control this turn ."
+Gravegouger,2,2,{2}{B},Creature - Nightmare Horror,"When Gravegouger enters the battlefield , exile up to two target cards from a single graveyard . $When Gravegouger leaves the battlefield , return the exiled cards to their owner's graveyard ."
+Nantuko Blightcutter,2,2,{2}{G},Creature - Insect Druid,Protection from black$Threshold - Nantuko Blightcutter gets +1/+1 for each black permanent your opponents control as long as seven or more cards are in your graveyard .
+Radiate,,,{3}{R}{R},Instant,Choose target instant or sorcery spell that targets only a single permanent or player . Copy that spell for each other permanent or player the spell could target . Each copy targets a different one of those permanents and players .
+Vengeful Dreams,,,{W}{W},Instant,"As an additional cost to cast Vengeful Dreams , discard X cards . $Exile X target attacking creatures ."
+Attrition,,,{1}{B}{B},Enchantment,"{ B } , Sacrifice a creature : Destroy target nonblack creature ."
+Extruder,3,4,{4},Artifact Creature - Juggernaut,"Echo { 4 } < i > (At the beginning of your upkeep , if this came under your control since the beginning of your last upkeep , sacrifice it unless you pay its echo cost . ) < /i > $Sacrifice an artifact : Put a +1/+1 counter on target creature ."
+Mask of Law and Grace,,,{W},Enchantment - Aura,Enchant creature$Enchanted creature has protection from black and from red .
+Serra Advocate,2,2,{3}{W},Creature - Angel,Flying${tap }: Target attacking or blocking creature gets +2/+2 until end of turn .
+Angelic Curator,1,1,{1}{W},Creature - Angel Spirit,"Flying , protection from artifacts"
+Deranged Hermit,1,1,{3}{G}{G},Creature - Elf,"Echo { 3}{G}{G } < i > (At the beginning of your upkeep , if this came under your control since the beginning of your last upkeep , sacrifice it unless you pay its echo cost . ) < /i > $When Deranged Hermit enters the battlefield , put four 1/1 green Squirrel creature tokens onto the battlefield . $Squirrel creatures get +1/+1 ."
+Iron Maiden,,,{3},Artifact,"At the beginning of each opponent's upkeep , Iron Maiden deals X damage to that player , where X is the number of cards in his or her hand minus 4 ."
+Parch,,,{1}{R},Instant,Choose one - Parch deals 2 damage to target creature or player ; or Parch deals 4 damage to target blue creature .
+Repopulate,,,{1}{G},Instant,"Shuffle all creature cards from target player's graveyard into that player's library . $Cycling { 2 } < i > ({2 } , Discard this card : Draw a card . ) < /i >"
+Ticking Gnomes,3,3,{3},Artifact Creature - Gnome,"Echo { 3 } < i > (At the beginning of your upkeep , if this came under your control since the beginning of your last upkeep , sacrifice it unless you pay its echo cost . ) < /i > $Sacrifice Ticking Gnomes : Ticking Gnomes deals 1 damage to target creature or player ."
+Acidic Soil,,,{2}{R},Sorcery,Acidic Soil deals damage to each player equal to the number of lands he or she controls .
+Blood Vassal,2,2,{2}{B},Creature - Thrull,Sacrifice Blood Vassal : Add { B}{B } to your mana pool .
+Confiscate,,,{4}{U}{U},Enchantment - Aura,Enchant permanent < i > (Target a permanent as you cast this . This card enters the battlefield attached to that permanent . ) < /i > $You control enchanted permanent .
+Elvish Herder,1,1,{G},Creature - Elf,{ G }: Target creature gains trample until end of turn .
+Gamble,,,{R},Sorcery,"Search your library for a card , put that card into your hand , discard a card at random , then shuffle your library ."
+Hollow Dogs,3,3,{4}{B},Creature - Zombie Hound,"Whenever Hollow Dogs attacks , it gets +2/+0 until end of turn ."
+Monk Idealist,2,2,{2}{W},Creature - Human Monk Cleric,"When Monk Idealist enters the battlefield , return target enchantment card from your graveyard to your hand ."
+Planar Birth,,,{1}{W},Sorcery,Return all basic land cards from all graveyards to the battlefield tapped under their owners ' control .
+Rune of Protection: Lands,,,{1}{W},Enchantment,"{ W }: The next time a land source of your choice would deal damage to you this turn , prevent that damage . $Cycling { 2 } < i > ({2 } , Discard this card : Draw a card . ) < /i >"
+Slippery Karst,,,,Land,"Slippery Karst enters the battlefield tapped . ${tap }: Add { G } to your mana pool . $Cycling { 2 } < i > ({2 } , Discard this card : Draw a card . ) < /i >"
+Torch Song,,,{2}{R},Enchantment,"At the beginning of your upkeep , you may put a verse counter on Torch Song . ${2}{R } , Sacrifice Torch Song : Torch Song deals X damage to target creature or player , where X is the number of verse counters on Torch Song ."
+Winding Wurm,6,6,{4}{G},Creature - Wurm,"Echo { 4}{G } < i > (At the beginning of your upkeep , if this came under your control since the beginning of your last upkeep , sacrifice it unless you pay its echo cost . ) < /i >"
+Chainer's Edict,,,{1}{B},Sorcery,Target player sacrifices a creature . $Flashback { 5}{B}{B } < i > (You may cast this card from your graveyard for its flashback cost . Then exile it . ) < /i >
+Hulking Goblin,2,2,{1}{R},Creature - Goblin,Hulking Goblin can't block .
+Reign of the Pit,,,{4}{B}{B},Sorcery,"Each player sacrifices a creature . Put an X/X black Demon creature token with flying onto the battlefield , where X is the total power of the creatures sacrificed this way ."
+Betrayal,,,{U},Enchantment - Aura,"Enchant creature an opponent controls$Whenever enchanted creature becomes tapped , you draw a card ."
+Freewind Falcon,1,1,{1}{W},Creature - Bird,"Flying , protection from red"
+Natural Order,,,{2}{G}{G},Sorcery,"As an additional cost to cast Natural Order , sacrifice a green creature . $Search your library for a green creature card and put it onto the battlefield . Then shuffle your library ."
+Solfatara,,,{2}{R},Instant,Target player can't play land cards this turn . $Draw a card at the beginning of the next turn's upkeep .
+Alms,,,{W},Enchantment,"{ 1 } , Exile the top card of your graveyard : Prevent the next 1 damage that would be dealt to target creature this turn ."
+Dwarven Berserker,1,1,{1}{R},Creature - Dwarf Berserker,"Whenever Dwarven Berserker becomes blocked , it gets +3/+0 and gains trample until end of turn ."
+Lotus Vale,,,,Land,"If Lotus Vale would enter the battlefield , sacrifice two untapped lands instead . If you do , put Lotus Vale onto the battlefield . If you don't , put it into its owner's graveyard . ${tap }: Add three mana of any one color to your mana pool ."
+Relearn,,,{1}{U}{U},Sorcery,Return target instant or sorcery card from your graveyard to your hand .
+Vodalian Illusionist,2,2,{2}{U},Creature - Merfolk Wizard,"{ U}{U } , { tap }: Target creature phases out . < i > (While it's phased out , it's treated as though it doesn't exist . It phases in before its controller untaps during his or her next untap step . ) < /i >"
+Bojuka Bog,,,,Land,"Bojuka Bog enters the battlefield tapped . $When Bojuka Bog enters the battlefield , exile all cards from target player's graveyard . ${tap }: Add { B } to your mana pool ."
+Dispel,,,{U},Instant,Counter target instant spell .
+Hammer of Ruin,,,{2},Artifact - Equipment,"Equipped creature gets +2/+0 . $Whenever equipped creature deals combat damage to a player , you may destroy target Equipment that player controls . $Equip { 2 }"
+Lodestone Golem,3,5,{4},Artifact Creature - Golem,Nonartifact spells cost { 1 } more to cast .
+Razor Boomerang,,,{3},Artifact - Equipment,"Equipped creature has "" { tap } , Unattach Razor Boomerang : Razor Boomerang deals 1 damage to target creature or player . Return Razor Boomerang to its owner's hand . "" $Equip { 2 }"
+Snapping Creeper,3,2,{2}{G},Creature - Plant,"Landfall - Whenever a land enters the battlefield under your control , Snapping Creeper gains vigilance until end of turn ."
+Vastwood Animist,1,1,{2}{G},Creature - Elf Shaman Ally,"{ tap }: Target land you control becomes an X/X Elemental creature until end of turn , where X is the number of Allies you control . It's still a land ."
+Beastmaster Ascension,,,{2}{G},Enchantment,"Whenever a creature you control attacks , you may put a quest counter on Beastmaster Ascension . $As long as Beastmaster Ascension has seven or more quest counters on it , creatures you control get +5/+5 ."
+Cosi's Trickster,1,1,{U},Creature - Merfolk Wizard,"Whenever an opponent shuffles his or her library , you may put a +1/+1 counter on Cosi's Trickster ."
+Giant Scorpion,3,1,{2}{B},Creature - Scorpion,Deathtouch < i > (Any amount of damage this deals to a creature is enough to destroy it . ) < /i >
+Hedron Crab,2,0,{U},Creature - Crab,"Landfall - Whenever a land enters the battlefield under your control , target player puts the top three cards of his or her library into his or her graveyard ."
+Khalni Heart Expedition,,,{1}{G},Enchantment,"Landfall - Whenever a land enters the battlefield under your control , you may put a quest counter on Khalni Heart Expedition . $Remove three quest counters from Khalni Heart Expedition and sacrifice it : Search your library for up to two basic land cards , put them onto the battlefield tapped , then shuffle your library ."
+Malakir Bloodwitch,4,4,{3}{B}{B},Creature - Vampire Shaman,"Flying , protection from white$When Malakir Bloodwitch enters the battlefield , each opponent loses life equal to the number of Vampires you control . You gain life equal to the life lost this way ."
+Noble Vestige,2,1,{2}{W},Creature - Spirit,Flying${tap }: Prevent the next 1 damage that would be dealt to target player this turn .
+Quest for the Gravelord,,,{B},Enchantment,"Whenever a creature dies , you may put a quest counter on Quest for the Gravelord . $Remove three quest counters from Quest for the Gravelord and sacrifice it : Put a 5/5 black Zombie Giant creature token onto the battlefield ."
+Shatterskull Giant,3,4,{2}{R}{R},Creature - Giant Warrior,
+Surrakar Marauder,1,2,{1}{B},Creature - Surrakar,"Landfall - Whenever a land enters the battlefield under your control , Surrakar Marauder gains intimidate until end of turn . < i > (It can't be blocked except by artifact creatures and/or creatures that share a color with it . ) < /i >"
+Vampire Hexmage,1,2,{B}{B},Creature - Vampire Shaman,First strike$Sacrifice Vampire Hexmage : Remove all counters from target permanent .

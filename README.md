@@ -1,5 +1,8 @@
 Python-MTG-Effects
 ==========
+### AMHR Testing:
+To run the testing script to add the cards from automation to the game, `cd AMHR/testing` and run command `python3 add_cards_to_game.py`
+
 test2
 This is a framework for studying card effects in MTG and CCGs in general: How to reason about them, how to have engines resolve conflicts automatically, how to translate text effects into code, etc.
 

@@ -1,0 +1,101 @@
+##############################
+Sapling of Colfenor
+
+    Abilities:
+        self.card.add_effect('gainAbility', 'Indestructible', self)
+
+    Triggers:
+        onAttack
+            self.game.apply_to_battlefield(
+                lambda card: self.controller.gain_life(card.toughness) and self.controller.lose_life(card.power) and card.owner = self.controller,
+                lambda card: card == self.opponent.library.pop() and card.is_creature
+            )
+                                        
+
+##############################
+Stillmoon Cavalier
+
+    Abilities:
+        W,B: self.card.add_effect('gainAbility', 'Flying', self, self.game.eot_time)
+        W,B: self.card.add_effect('gainAbility', 'First Strike', self, self.game.eot_time)
+        2(W,B): self.card.add_effect('modifyPT', (2, 1), self, self.game.eot_time)
+
+
+##############################
+Eternal Witness
+
+    Triggers:
+        onEtB
+
+        Targets:
+            Prompt:
+				Choose target card from graveyard\n
+
+        target[0].change_zone(self.controller.hand)
+
+##############################
+Onslaught
+
+    Triggers:
+        onEtB
+        
+        Targets:
+            'creature'
+        
+        Conditioned On:
+            whenever CREATURE spell etb
+
+            targets[0].tap()
+
+##############################
+Shaman of the Great Hunt
+
+    Triggers:
+        onCombatDamageToPlayers
+        self.card.add_counter("+1, +1")
+    
+    Ferocious, 2(G,U):
+        self.controller.draw(sum([1 for card in self.hand if card.is_creature and card.power >= 4]))
+
+##############################
+Pulse of the Grid
+
+  Triggers:
+    onEtB:
+      self.controller.draw(2)
+      self.controller.discard() # function asks user for prompt already
+
+      self.card.change_zone(self.controller.hand) if len(self.opponent.hand) > len(self.controller.hand)
+
+##############################
+Skylasher
+
+  Abilities:
+    self.card.add_effect('gainAbility', 'Flash', self)
+    self.card.add_effect('gainAbility', 'Reach', self)
+
+    # card says "cannot be countered" which means can't put spell on it -- not sure if thats passed in already - couldnt find ways to do it without giving it other attributes as well
+
+##############################
+Warped Physique
+
+  Targets:
+    'creature'
+
+  targets[0].add_effect('modifyPT',(len(self.controller.hand), -len(self.controller.hand)), self, self.game.eot_time)
+
+##############################
+Hand of Silumgar
+
+  Abilities:
+    self.card.add_effect('gainAbility', 'Deathtouch', self)
+
+##############################
+Ray of Revelation
+
+  Targets:
+    'enchantment'
+
+  targets[0].destroy()
+
+  G: self.card.exile()

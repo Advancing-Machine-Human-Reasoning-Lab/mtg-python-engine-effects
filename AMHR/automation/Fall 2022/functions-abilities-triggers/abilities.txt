@@ -1,0 +1,22 @@
+Deathtouch # any damage done to creature will cause the other creature to die
+Defender # creature with defender cannot attack
+Double_Strike # creature can do its combat damage twice
+First_Strike # creature deals combat damage first before other creatures
+Flash # card can be played anytime they could cast an instant
+Flying # creature can fly and can only be blocked by creatures with flying/reach
+Haste # creature is not affected by 'summoning sick' rule
+Hexproof # doesnt allow permanent or player to be targeted by an opponent
+Indestructible # permanent cannot be destroyed
+Menace # makes creatures unblockable by a single creature
+Lifelink # causes player to gain life when creature/permanent deals damage
+Reach # creature can block creature with flying
+Convoke # lets you tap creatures rather than pay mana to cast spell
+Trample # creature deal excess combat damage to a defending player or planeswalker while attacking.
+Vigilance # lets creature attack without having to tap
+Plainswalk #
+Islandwalk 
+Swampwalk
+Mountainwalk
+Forestwalk
+Intimidate
+Shroud 
